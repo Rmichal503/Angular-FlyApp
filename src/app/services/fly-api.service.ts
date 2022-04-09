@@ -5,11 +5,10 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class FlyApiService {
-
+  destini:any
+  
   constructor(private http: HttpClient) { }
   url: string = 'https://travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com/v2/prices/latest'
-  dane: any;
-
   getApiData(origin: string, destination: string, ccy: string) {
     const params = {
       destination: destination,

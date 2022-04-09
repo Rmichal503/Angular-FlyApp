@@ -1,11 +1,13 @@
 <p>fly-api works!</p>
 <select name="origin" #origin class="origin">
+  <option value="--">Miejsce wylotu</option>
   <option value="WAW">Warszawa</option>
   <option value="LUZ">Lublin</option>
   <option value="GDN">Gdańsk</option>
 </select>
 <!-- <i class="fa-solid fa-plane-departure"></i> -->
 <select name="destination" #destination class="destination">
+  <option value="--">Miejsce docelowe</option>
   <option value="JFK">Nowy Jork</option>
   <option value="CDG">Paryż</option>
   <option value="CPT">Cape Town</option>
@@ -13,17 +15,30 @@
   <option value="TRN">Turyn</option>
   <option value="LAX">Los Angeles</option>
   <option value="HND">Tokio</option>
-  <option value="-">None</option>
 </select>
 <select name="ccy" #ccy class="ccy">
+  <option value="--">Wybierz walute</option>
   <option value="PLN">Złotówki</option>
   <option value="EUR">Euro</option>
   <option value="USD">Dolary</option>
 </select>
-<div *ngFor="let ticket of apiData.data">
-  Wylot z {{ticket.origin|flights}} do {{ticket.destination|flights}}<br>
-  Data wylotu: {{ticket.depart_date|date}} <br>
-  Liczba przesiadek {{ticket.number_of_changes}} oraz czas lotu {{ticket.duration}} <br>
-  <!-- {{ticket|json}} -->
+<!-- <button (click)="dataApi(origin.value, destination.value, ccy.value)">Wyszukaj połączenie</button> -->
+
+<p>
+  <button type="button" class="btn btn-outline-primary" (click)="collapse.toggle()" (click)="dataApi(origin.value, destination.value, ccy.value)" [attr.aria-expanded]="!isCollapsed"
+    aria-controls="collapseExample">Wyszukaj połączeń
+</button>
+</p>
+<div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+  <div class="card">
+    <div class="card-body">
+      <div class='ticket' *ngFor="let ticket of apiData">
+        <button (click)="showTicket(ticket.value,ticket.depart_date)">Wylot z {{ticket.origin|flights}} do
+          {{ticket.destination|flights}}<br>
+          Data wylotu: {{ticket.depart_date|date}} <br>
+          Liczba przesiadek {{ticket.number_of_changes}} oraz czas lotu {{ticket.duration}} <br>
+          Koszt przelotu: {{ticket.value|currency:ccy.value}}</button>
+      </div>
+    </div>
+  </div>
 </div>
-<button (click)="dataApi(origin.value, destination.value, ccy.value)">dane</button>
