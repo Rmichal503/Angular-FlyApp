@@ -22,17 +22,17 @@ export class FlyApiComponent implements OnInit {
   public isCollapsed = true;
   apiData: any;
   weather: any;
-  dataApi(origin: string, destination: string, ccy: string, passangers: string, ) {
+  dataApi(origin: string, destination: string, ccy: string, passangers: string,) {
     this.weatherApi.cityOrigin = origin;
     this.weatherApi.cityDestination = destination;
     this.flyApi.passangersCount = passangers;
-    if (origin&&destination&&ccy&&passangers) {
+    if (origin && destination && ccy && passangers) {
       this.flyApi.getApiData(origin, destination, ccy).subscribe(flyData => {
         this.apiData = flyData.data;
         this.flyApi.destini = this.apiData[0].distance;
         console.log(flyData);
       })
-    }else{
+    } else {
       alert('Nie wszystkie opcje lotu zostały wybrane!')
     }
 
