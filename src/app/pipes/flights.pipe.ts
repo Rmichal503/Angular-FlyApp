@@ -11,13 +11,13 @@ export class FlightsPipe implements PipeTransform {
         return value = 'Warszawy'
       case 'BER':
         return value = 'Berlina'
-      case 'JFK':
+      case 'NYC':
         return value = 'Nowego Jorku'
       case 'LUZ':
         return value = 'Lublina'
       case 'GDN':
         return value = 'Gdańska'
-      case 'CDG':
+      case 'PAR':
         return value = 'Paryża'
       case 'CPT':
         return value = 'Kapsztadu'
@@ -25,7 +25,7 @@ export class FlightsPipe implements PipeTransform {
         return value = 'Turynu'
       case 'LAX':
         return value = 'Los Angeles'
-      case 'HND':
+      case 'TYO':
         return value = 'Tokio'
       default:
         return value;

@@ -9,18 +9,13 @@
 <div class="modal-body">
   <!-- <p> {{my_modal_content}}</p> -->
   content
-  <div [ngSwitch]='true'>
-    <div *ngSwitchCase="distance<500">
-      <app-embraer></app-embraer>
-    </div>
-    <div *ngSwitchCase="distance<1500">
-      <app-boeing></app-boeing>
-    </div>
-    <div *ngSwitchCase="distance>1500">
-      <app-airbus></app-airbus>
-    </div>
+  <div [ngSwitch]='typeOfPlane'>
+      <app-embraer *ngSwitchCase="1"></app-embraer>
+      <app-boeing *ngSwitchCase="2"></app-boeing>
+      <app-airbus *ngSwitchCase="3"></app-airbus>
   </div>
 </div>
 <div class="modal-footer">
+  <button class="btn btn-outline-primary mb-2 me-2" (click)="openSm()">Dalej</button>
   <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
 </div>

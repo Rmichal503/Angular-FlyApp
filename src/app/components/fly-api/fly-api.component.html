@@ -22,23 +22,33 @@
   <option value="EUR">Euro</option>
   <option value="USD">Dolary</option>
 </select>
+<input type="number" #pass placeholder="Liczba pasażerów">
 <!-- <button (click)="dataApi(origin.value, destination.value, ccy.value)">Wyszukaj połączenie</button> -->
 
 <p>
-  <button type="button" class="btn btn-outline-primary" (click)="collapse.toggle()" (click)="dataApi(origin.value, destination.value, ccy.value)" [attr.aria-expanded]="!isCollapsed"
+  <button type="button" class="btn btn-outline-primary" (click)="dataApi(origin.value, destination.value, ccy.value, pass.value)">Wyszukaj połączeń</button>
+  <!-- <button type="button" class="btn btn-outline-primary" (click)="collapse.toggle()"
+    (click)="dataApi(origin.value, destination.value, ccy.value, pass.value)" [attr.aria-expanded]="!isCollapsed"
     aria-controls="collapseExample">Wyszukaj połączeń
-</button>
+  </button> -->
 </p>
-<div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+<div class='ticket' *ngFor="let ticket of apiData">
+  <button (click)="showTicket(ticket.value,ticket.depart_date)">
+    Wylot z {{ticket.origin|flights}} do {{ticket.destination|flights}}<br>
+    Data wylotu: {{ticket.depart_date|date}} <br>
+    Liczba przesiadek {{ticket.number_of_changes}} oraz czas lotu {{ticket.duration}} <br>
+    Koszt przelotu: {{ticket.value|currency:ccy.value}} </button>
+</div>
+<!-- <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
   <div class="card">
     <div class="card-body">
       <div class='ticket' *ngFor="let ticket of apiData">
-        <button (click)="showTicket(ticket.value,ticket.depart_date)">Wylot z {{ticket.origin|flights}} do
-          {{ticket.destination|flights}}<br>
+        <button (click)="showTicket(ticket.value,ticket.depart_date)">
+          Wylot z {{ticket.origin|flights}} do {{ticket.destination|flights}}<br>
           Data wylotu: {{ticket.depart_date|date}} <br>
           Liczba przesiadek {{ticket.number_of_changes}} oraz czas lotu {{ticket.duration}} <br>
-          Koszt przelotu: {{ticket.value|currency:ccy.value}}</button>
+          Koszt przelotu: {{ticket.value|currency:ccy.value}} </button>
       </div>
     </div>
   </div>
-</div>
+</div> -->

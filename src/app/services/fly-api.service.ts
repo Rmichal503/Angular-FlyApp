@@ -6,6 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class FlyApiService {
   destini:any
+  passangersCount:any;
   
   constructor(private http: HttpClient) { }
   url: string = 'https://travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com/v2/prices/latest'

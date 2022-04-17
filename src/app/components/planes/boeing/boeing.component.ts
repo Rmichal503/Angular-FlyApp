@@ -10,7 +10,9 @@ export class BoeingComponent implements OnInit {
 
   constructor(public activeModal: NgbActiveModal) { }
   svgClick(e: any) {
+    console.log(e.path[1].attributes["data-seatNumb"].value)
     console.log(e)
+    e.path[1].attributes[2].value = 'red'
   }
   ngOnInit(): void {
   }

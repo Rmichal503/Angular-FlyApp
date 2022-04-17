@@ -17,26 +17,31 @@ export class FlyApiComponent implements OnInit {
   ngOnInit(): void {
   }
   options: NgbModalOptions = {
-    size: 'xl'
+    size: 'lg'
   }
   public isCollapsed = true;
   apiData: any;
   weather: any;
-  dataApi(origin: string, destination: string, ccy: string) {
+  dataApi(origin: string, destination: string, ccy: string, passangers: string, ) {
     this.weatherApi.cityOrigin = origin;
     this.weatherApi.cityDestination = destination;
-    this.flyApi.getApiData(origin, destination, ccy).subscribe(flyData => {
-      this.apiData = flyData.data;
-      this.flyApi.destini = this.apiData[0].distance;
-      console.log(flyData);
-    })
+    this.flyApi.passangersCount = passangers;
+    if (origin&&destination&&ccy&&passangers) {
+      this.flyApi.getApiData(origin, destination, ccy).subscribe(flyData => {
+        this.apiData = flyData.data;
+        this.flyApi.destini = this.apiData[0].distance;
+        console.log(flyData);
+      })
+    }else{
+      alert('Nie wszystkie opcje lotu zostały wybrane!')
+    }
+
 
   }
   showTicket(price: number, departure: string) {
     this.weatherApi.getApiDataDestination().subscribe({
       next: data => this.weather = data,
       error: err => console.log(err),
-      complete: () => alert(`Wylot dnia ${departure}, koszt przelotu ${price} pogoda ${this.weather.current.weather[0].description}`)
     })
     this.modalServise.open(ModalComponent, this.options)
   }

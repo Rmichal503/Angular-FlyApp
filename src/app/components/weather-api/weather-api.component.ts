@@ -12,14 +12,12 @@ export class WeatherApiComponent implements OnInit {
   constructor(private weatherApi: WeatherApiService) { }
 
   ngOnInit(): void {
+    
   }
   apiDataOrigin: any = [];
   apiDataDestination: any = [];
   getWeatherOrigin() {
-    this.weatherApi.getApiDataOrigin().subscribe(data => {
-      this.apiDataOrigin = data
-      console.log(this.apiDataOrigin);
-    })
+    
   }
   getWeatherDestination() {
     this.weatherApi.getApiDataDestination().subscribe(data => {

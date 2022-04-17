@@ -7,12 +7,13 @@ import { AppComponent } from './app.component';
 import { FlyApiComponent } from './components/fly-api/fly-api.component';
 import { FlyApiService } from './services/fly-api.service';
 import { FlightsPipe } from './pipes/flights.pipe';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbActiveModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { WeatherApiComponent } from './components/weather-api/weather-api.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { BoeingComponent } from './components/planes/boeing/boeing.component';
 import { AirbusComponent } from './components/planes/airbus/airbus.component';
 import { EmbraerComponent } from './components/planes/embraer/embraer.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +25,14 @@ import { EmbraerComponent } from './components/planes/embraer/embraer.component'
     BoeingComponent,
     AirbusComponent,
     EmbraerComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     NgbModule,
+    NgbActiveModal
   ],
   // entryComponents:[
   //   MymodalComponent

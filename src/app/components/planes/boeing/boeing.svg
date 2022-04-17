@@ -10,7 +10,7 @@
       <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="700" transform="translate(-190.000000, -880.000000)">
           <g id="737-700" transform="translate(190.000000, 880.000000)">
-            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="972" height="285"></rect>
+            <rect id="Rectangle"></rect>
             <g id="Plane"
               transform="translate(395.500000, 106.500000) rotate(-90.000000) translate(-395.500000, -106.500000) translate(289.000000, -288.000000)"
               fill="#F5F5F5">
@@ -341,41 +341,41 @@
               </g>
             </g>
             <g id="Seats" transform="translate(206.000000, 34.000000)">
-              <g id="first" transform="translate(0.000000, 22.068376)" fill="#00416B">
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="A1" transform="translate(0.309859, 81.485043)">
+              <g id="first" transform="translate(0.000000, 22.068376)" >
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A1" transform="translate(0.309859, 81.485043)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="D1" transform="translate(0.309859, 21.378205)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D1" transform="translate(0.309859, 21.378205)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="A2" transform="translate(21.380282, 81.485043)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A2" transform="translate(21.380282, 81.485043)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="D2" transform="translate(21.380282, 21.378205)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D2" transform="translate(21.380282, 21.378205)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="C1" transform="translate(0.309859, 60.416667)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C1" transform="translate(0.309859, 60.416667)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="F1" transform="translate(0.309859, 0.309829)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F1" transform="translate(0.309859, 0.309829)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="C2" transform="translate(21.380282, 60.416667)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C2" transform="translate(21.380282, 60.416667)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="F2" transform="translate(21.380282, 0.309829)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F2" transform="translate(21.380282, 0.309829)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="A3" transform="translate(42.450704, 81.485043)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A3" transform="translate(42.450704, 81.485043)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="D3" transform="translate(42.450704, 21.378205)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D3" transform="translate(42.450704, 21.378205)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="C3" transform="translate(42.450704, 60.416667)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C3" transform="translate(42.450704, 60.416667)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_first" (click)="svgClick($event)" data-seatNumb="F3" transform="translate(42.450704, 0.309829)">
+                <g id="ico_first" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F3" transform="translate(42.450704, 0.309829)">
                   <rect id="Rectangle-1-Copy-2" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
               </g>
@@ -385,143 +385,143 @@
                   <use xlink:href="#path-1"></use>
                 </mask>
                 <g id="Duplicate-control"></g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="F28" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F28" mask="url(#mask-2)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 294.957265)" (click)="svgClick($event)" data-seatNumb="D10" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 294.957265)" (click)="svgClick($event)" data-seatNumb="D10" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" transform="translate(21.070423, 294.957265)" data-seatNumb="E10" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" transform="translate(21.070423, 294.957265)" data-seatNumb="E10" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 294.957265)" (click)="svgClick($event)" data-seatNumb="F10" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 294.957265)" (click)="svgClick($event)" data-seatNumb="F10" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 273.888889)" (click)="svgClick($event)" data-seatNumb="D15" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 273.888889)" (click)="svgClick($event)" data-seatNumb="D15" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 252.820513)" (click)="svgClick($event)" data-seatNumb="D16" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 252.820513)" (click)="svgClick($event)" data-seatNumb="D16" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 231.752137)" (click)="svgClick($event)" data-seatNumb="D17" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 231.752137)" (click)="svgClick($event)" data-seatNumb="D17" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 210.683761)" (click)="svgClick($event)" data-seatNumb="D18" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 210.683761)" (click)="svgClick($event)" data-seatNumb="D18" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 189.615385)" (click)="svgClick($event)" data-seatNumb="D19" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 189.615385)" (click)="svgClick($event)" data-seatNumb="D19" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 168.547009)" (click)="svgClick($event)" data-seatNumb="D20" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 168.547009)" (click)="svgClick($event)" data-seatNumb="D20" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 147.478632)" (click)="svgClick($event)" data-seatNumb="D21" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 147.478632)" (click)="svgClick($event)" data-seatNumb="D21" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 126.410256)" (click)="svgClick($event)" data-seatNumb="D22" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 126.410256)" (click)="svgClick($event)" data-seatNumb="D22" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 105.341880)" (click)="svgClick($event)" data-seatNumb="D23" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 105.341880)" (click)="svgClick($event)" data-seatNumb="D23" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 84.273504)" (click)="svgClick($event)" data-seatNumb="D24" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 84.273504)" (click)="svgClick($event)" data-seatNumb="D24" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 63.205128)" (click)="svgClick($event)" data-seatNumb="D25" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 63.205128)" (click)="svgClick($event)" data-seatNumb="D25" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 42.136752)" (click)="svgClick($event)" data-seatNumb="D26" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 42.136752)" (click)="svgClick($event)" data-seatNumb="D26" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 21.068376)" (click)="svgClick($event)" data-seatNumb="D27" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 21.068376)" (click)="svgClick($event)" data-seatNumb="D27" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 0.000000)" (click)="svgClick($event)" data-seatNumb="D28" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 0.000000)" (click)="svgClick($event)" data-seatNumb="D28" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 273.888889)" (click)="svgClick($event)" data-seatNumb="E15" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 273.888889)" (click)="svgClick($event)" data-seatNumb="E15" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 252.820513)" (click)="svgClick($event)" data-seatNumb="E16" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 252.820513)" (click)="svgClick($event)" data-seatNumb="E16" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 231.752137)" (click)="svgClick($event)" data-seatNumb="E17" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 231.752137)" (click)="svgClick($event)" data-seatNumb="E17" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 210.683761)" (click)="svgClick($event)" data-seatNumb="E18" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 210.683761)" (click)="svgClick($event)" data-seatNumb="E18" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 189.615385)" (click)="svgClick($event)" data-seatNumb="E19" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 189.615385)" (click)="svgClick($event)" data-seatNumb="E19" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 168.547009)" (click)="svgClick($event)" data-seatNumb="E20" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 168.547009)" (click)="svgClick($event)" data-seatNumb="E20" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 147.478632)" (click)="svgClick($event)" data-seatNumb="E21" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 147.478632)" (click)="svgClick($event)" data-seatNumb="E21" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 126.410256)" (click)="svgClick($event)" data-seatNumb="E22" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 126.410256)" (click)="svgClick($event)" data-seatNumb="E22" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 105.341880)" (click)="svgClick($event)" data-seatNumb="E23" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 105.341880)" (click)="svgClick($event)" data-seatNumb="E23" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 84.273504)" (click)="svgClick($event)" data-seatNumb="E24" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 84.273504)" (click)="svgClick($event)" data-seatNumb="E24" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 63.205128)" (click)="svgClick($event)" data-seatNumb="E25" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 63.205128)" (click)="svgClick($event)" data-seatNumb="E25" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 42.136752)" (click)="svgClick($event)" data-seatNumb="E26" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 42.136752)" (click)="svgClick($event)" data-seatNumb="E26" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 21.068376)" (click)="svgClick($event)" data-seatNumb="E27" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 21.068376)" (click)="svgClick($event)" data-seatNumb="E27" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 0.000000)" (click)="svgClick($event)" data-seatNumb="E28" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 0.000000)" (click)="svgClick($event)" data-seatNumb="E28" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 273.888889)" (click)="svgClick($event)" data-seatNumb="F15" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 273.888889)" (click)="svgClick($event)" data-seatNumb="F15" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 273.888889)" (click)="svgClick($event)" data-seatNumb="D15" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 273.888889)" (click)="svgClick($event)" data-seatNumb="D15" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 273.888889)" (click)="svgClick($event)" data-seatNumb="E15" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 273.888889)" (click)="svgClick($event)" data-seatNumb="E15" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 231.752137)" (click)="svgClick($event)" data-seatNumb="F17" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 231.752137)" (click)="svgClick($event)" data-seatNumb="F17" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 210.683761)" (click)="svgClick($event)" data-seatNumb="F18" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 210.683761)" (click)="svgClick($event)" data-seatNumb="F18" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 189.615385)" (click)="svgClick($event)" data-seatNumb="F19" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 189.615385)" (click)="svgClick($event)" data-seatNumb="F19" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 168.547009)" (click)="svgClick($event)" data-seatNumb="F20" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 168.547009)" (click)="svgClick($event)" data-seatNumb="F20" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 147.478632)" (click)="svgClick($event)" data-seatNumb="F21" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 147.478632)" (click)="svgClick($event)" data-seatNumb="F21" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 126.410256)" (click)="svgClick($event)" data-seatNumb="F22" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 126.410256)" (click)="svgClick($event)" data-seatNumb="F22" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 105.341880)" (click)="svgClick($event)" data-seatNumb="F23" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 105.341880)" (click)="svgClick($event)" data-seatNumb="F23" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 84.273504)" (click)="svgClick($event)" data-seatNumb="F24" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 84.273504)" (click)="svgClick($event)" data-seatNumb="F24" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 63.205128)" (click)="svgClick($event)" data-seatNumb="F25" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 63.205128)" (click)="svgClick($event)" data-seatNumb="F25" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 42.136752)" (click)="svgClick($event)" data-seatNumb="F26" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 42.136752)" (click)="svgClick($event)" data-seatNumb="F26" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 21.068376)" (click)="svgClick($event)" data-seatNumb="F27" mask="url(#mask-2)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 21.068376)" (click)="svgClick($event)" data-seatNumb="F27" mask="url(#mask-2)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
               </g>
@@ -532,90 +532,90 @@
                 </mask>
                 <g id="Duplicate-control"></g>
                 <g>
-                    <g id="ico_main" (click)="svgClick($event)" transform="translate(21.070423, 231.752137)" data-seatNumb="E9" mask="url(#mask-4)" fill="#43A9C7">
+                    <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" transform="translate(21.070423, 231.752137)" data-seatNumb="E9" mask="url(#mask-4)" >
                             <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                         </g>
-                    <g id="ico_main" (click)="svgClick($event)" transform="translate(0.000000, 231.752137)" data-seatNumb="F9" mask="url(#mask-4)" fill="#43A9C7">
+                    <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" transform="translate(0.000000, 231.752137)" data-seatNumb="F9" mask="url(#mask-4)" >
                                 <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                         </g>
-                    <g id="ico_main" (click)="svgClick($event)" transform="translate(42.140845, 231.752137)" data-seatNumb="D9" mask="url(#mask-4)" fill="#43A9C7">
+                    <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" transform="translate(42.140845, 231.752137)" data-seatNumb="D9" mask="url(#mask-4)" >
                                 <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                         </g>
-                  <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="D8" mask="url(#mask-4)"
+                  <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D8" mask="url(#mask-4)"
                     transform="translate(51.436620, 262.115385) rotate(-180.000000) translate(-51.436620, -262.115385) translate(42.140845, 252.820513)">
-                    <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                    <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                     <path
                       d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                       id="star" fill="#FFFFFF"></path>
                   </g>
                 </g>
                 <g>
-                  <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="E8" mask="url(#mask-4)"
+                  <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="E8" mask="url(#mask-4)"
                     transform="translate(30.366197, 262.115385) rotate(-180.000000) translate(-30.366197, -262.115385) translate(21.070423, 252.820513)">
-                    <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                    <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                     <path
                       d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                       id="star" fill="#FFFFFF"></path>
                   </g>
                 </g>
                 <g>
-                  <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="F6" mask="url(#mask-4)"
+                  <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F6" mask="url(#mask-4)"
                     transform="translate(9.295775, 304.252137) rotate(-180.000000) translate(-9.295775, -304.252137) translate(0.000000, 294.957265)">
-                    <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                    <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                     <path
                       d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                       id="star" fill="#FFFFFF"></path>
                   </g>
                 </g>
                 <g>
-                  <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="D6" mask="url(#mask-4)"
+                  <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D6" mask="url(#mask-4)"
                     transform="translate(51.436620, 304.252137) rotate(-180.000000) translate(-51.436620, -304.252137) translate(42.140845, 294.957265)">
-                    <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                    <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                     <path
                       d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                       id="star" fill="#FFFFFF"></path>
                   </g>
                 </g>
                 <g>
-                  <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="E6" mask="url(#mask-4)"
+                  <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="E6" mask="url(#mask-4)"
                     transform="translate(30.366197, 304.252137) rotate(-180.000000) translate(-30.366197, -304.252137) translate(21.070423, 294.957265)">
-                    <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                    <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                     <path
                       d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                       id="star" fill="#FFFFFF"></path>
                   </g>
                 </g>
                 <g>
-                  <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="D7" mask="url(#mask-4)"
+                  <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D7" mask="url(#mask-4)"
                     transform="translate(51.436620, 283.183761) rotate(-180.000000) translate(-51.436620, -283.183761) translate(42.140845, 273.888889)">
-                    <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                    <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                     <path
                       d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                       id="star" fill="#FFFFFF"></path>
                   </g>
                 </g>
                 <g>
-                  <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="E7" mask="url(#mask-4)"
+                  <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="E7" mask="url(#mask-4)"
                     transform="translate(30.366197, 283.183761) rotate(-180.000000) translate(-30.366197, -283.183761) translate(21.070423, 273.888889)">
-                    <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                    <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                     <path
                       d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                       id="star" fill="#FFFFFF"></path>
                   </g>
                 </g>
                 <g>
-                  <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="F8" mask="url(#mask-4)"
+                  <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F8" mask="url(#mask-4)"
                     transform="translate(9.295775, 262.115385) rotate(-180.000000) translate(-9.295775, -262.115385) translate(0.000000, 252.820513)">
-                    <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                    <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                     <path
                       d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                       id="star" fill="#FFFFFF"></path>
                   </g>
                 </g>
                 <g>
-                  <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="F7" mask="url(#mask-4)"
+                  <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F7" mask="url(#mask-4)"
                     transform="translate(9.295775, 283.183761) rotate(-180.000000) translate(-9.295775, -283.183761) translate(0.000000, 273.888889)">
-                    <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                    <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                     <path
                       d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                       id="star" fill="#FFFFFF"></path>
@@ -628,257 +628,257 @@
                   <use xlink:href="#path-5"></use>
                 </mask>
                 <g id="Duplicate-control"></g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C28" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C28" mask="url(#mask-6)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 63.205128)" (click)="svgClick($event)" data-seatNumb="A25" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 63.205128)" (click)="svgClick($event)" data-seatNumb="A25" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 42.136752)" (click)="svgClick($event)" data-seatNumb="A26" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 42.136752)" (click)="svgClick($event)" data-seatNumb="A26" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 21.068376)" (click)="svgClick($event)" data-seatNumb="A27" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 21.068376)" (click)="svgClick($event)" data-seatNumb="A27" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(42.140845, 0.000000)" (click)="svgClick($event)" data-seatNumb="A28" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(42.140845, 0.000000)" (click)="svgClick($event)" data-seatNumb="A28" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 63.205128)" (click)="svgClick($event)" data-seatNumb="B25" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 63.205128)" (click)="svgClick($event)" data-seatNumb="B25" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 42.136752)" (click)="svgClick($event)" data-seatNumb="B26" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 42.136752)" (click)="svgClick($event)" data-seatNumb="B26" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 21.068376)" (click)="svgClick($event)" data-seatNumb="B27" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 21.068376)" (click)="svgClick($event)" data-seatNumb="B27" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(21.070423, 0.000000)" (click)="svgClick($event)" data-seatNumb="B28" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(21.070423, 0.000000)" (click)="svgClick($event)" data-seatNumb="B28" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 63.205128)" (click)="svgClick($event)" data-seatNumb="C25" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 63.205128)" (click)="svgClick($event)" data-seatNumb="C25" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 42.136752)" (click)="svgClick($event)" data-seatNumb="C26" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 42.136752)" (click)="svgClick($event)" data-seatNumb="C26" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g id="ico_main" transform="translate(0.000000, 21.068376)" (click)="svgClick($event)" data-seatNumb="C27" mask="url(#mask-6)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" transform="translate(0.000000, 21.068376)" (click)="svgClick($event)" data-seatNumb="C27" mask="url(#mask-6)" >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
               </g>
               <g id="Group-3-Copy-3"
                 transform="translate(241.702991, 114.791802) rotate(90.000000) translate(-241.702991, -114.791802) translate(209.702991, -43.208198)">
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C24" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C24" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="A8"
+                <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A8"
                   transform="translate(51.436620, 262.115385) rotate(-180.000000) translate(-51.436620, -262.115385) translate(42.140845, 252.820513)">
-                  <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                  <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   <path
                     d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                     id="star" fill="#FFFFFF"></path>
                 </g>
-                <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="B8"
+                <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="B8"
                   transform="translate(30.366197, 262.115385) rotate(-180.000000) translate(-30.366197, -262.115385) translate(21.070423, 252.820513)">
-                  <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                  <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   <path
                     d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                     id="star" fill="#FFFFFF"></path>
                 </g>
-                <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="C8"
+                <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C8"
                   transform="translate(9.295775, 262.115385) rotate(-180.000000) translate(-9.295775, -262.115385) translate(0.000000, 252.820513)">
-                  <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                  <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   <path
                     d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                     id="star" fill="#FFFFFF"></path>
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" transform="translate(42.140845, 273.888889)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" transform="translate(42.140845, 273.888889)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="A6"
+                <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A6"
                   transform="translate(51.436620, 304.252137) rotate(-180.000000) translate(-51.436620, -304.252137) translate(42.140845, 294.957265)">
-                  <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                  <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   <path
                     d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                     id="star" fill="#FFFFFF"></path>
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A9" transform="translate(42.140845, 231.752137)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A9" transform="translate(42.140845, 231.752137)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A10" transform="translate(42.140845, 210.683761)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A10" transform="translate(42.140845, 210.683761)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A15" transform="translate(42.140845, 189.615385)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A15" transform="translate(42.140845, 189.615385)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A17" transform="translate(42.140845, 147.478632)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A17" transform="translate(42.140845, 147.478632)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A18" transform="translate(42.140845, 126.410256)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A18" transform="translate(42.140845, 126.410256)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A19" transform="translate(42.140845, 105.341880)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A19" transform="translate(42.140845, 105.341880)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A20" transform="translate(42.140845, 84.273504)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A20" transform="translate(42.140845, 84.273504)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A21" transform="translate(42.140845, 63.205128)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A21" transform="translate(42.140845, 63.205128)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A22" transform="translate(42.140845, 42.136752)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A22" transform="translate(42.140845, 42.136752)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A23" transform="translate(42.140845, 21.068376)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A23" transform="translate(42.140845, 21.068376)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="A24" transform="translate(42.140845, 0.000000)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A24" transform="translate(42.140845, 0.000000)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" transform="translate(21.070423, 273.888889)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" transform="translate(21.070423, 273.888889)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="B6"
+                <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="B6"
                   transform="translate(30.366197, 304.252137) rotate(-180.000000) translate(-30.366197, -304.252137) translate(21.070423, 294.957265)">
-                  <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                  <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   <path
                     d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                     id="star" fill="#FFFFFF"></path>
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B9" transform="translate(21.070423, 231.752137)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B9" transform="translate(21.070423, 231.752137)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B10" transform="translate(21.070423, 210.683761)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B10" transform="translate(21.070423, 210.683761)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B15" transform="translate(21.070423, 189.615385)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B15" transform="translate(21.070423, 189.615385)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B16" transform="translate(21.070423, 168.547009)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B16" transform="translate(21.070423, 168.547009)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B17" transform="translate(21.070423, 147.478632)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B17" transform="translate(21.070423, 147.478632)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B18" transform="translate(21.070423, 126.410256)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B18" transform="translate(21.070423, 126.410256)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B19" transform="translate(21.070423, 105.341880)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B19" transform="translate(21.070423, 105.341880)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B20" transform="translate(21.070423, 84.273504)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B20" transform="translate(21.070423, 84.273504)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B21" transform="translate(21.070423, 63.205128)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B21" transform="translate(21.070423, 63.205128)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B22" transform="translate(21.070423, 42.136752)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B22" transform="translate(21.070423, 42.136752)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B23" transform="translate(21.070423, 21.068376)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B23" transform="translate(21.070423, 21.068376)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="B24" transform="translate(21.070423, 0.000000)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B24" transform="translate(21.070423, 0.000000)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" transform="translate(0.000000, 273.888889)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" transform="translate(0.000000, 273.888889)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="A7"
+                <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A7"
                   transform="translate(51.436620, 283.183761) rotate(-180.000000) translate(-51.436620, -283.183761) translate(42.140845, 273.888889)">
-                  <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                  <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   <path
                     d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                     id="star" fill="#FFFFFF"></path>
                 </g>
-                <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="B7"
+                <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="B7"
                   transform="translate(30.366197, 283.183761) rotate(-180.000000) translate(-30.366197, -283.183761) translate(21.070423, 273.888889)">
-                  <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                  <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   <path
                     d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                     id="star" fill="#FFFFFF"></path>
                 </g>
-                <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="C7"
+                <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C7"
                   transform="translate(9.295775, 283.183761) rotate(-180.000000) translate(-9.295775, -283.183761) translate(0.000000, 273.888889)">
-                  <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                  <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   <path
                     d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                     id="star" fill="#FFFFFF"></path>
                 </g>
-                <g id="ico_premium" (click)="svgClick($event)" data-seatNumb="C6"
+                <g id="ico_premium" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C6"
                   transform="translate(9.295775, 304.252137) rotate(-180.000000) translate(-9.295775, -304.252137) translate(0.000000, 294.957265)">
-                  <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+                  <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   <path
                     d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                     id="star" fill="#FFFFFF"></path>
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C9" transform="translate(0.000000, 231.752137)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C9" transform="translate(0.000000, 231.752137)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C10" transform="translate(0.000000, 210.683761)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C10" transform="translate(0.000000, 210.683761)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C15" transform="translate(0.000000, 189.615385)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C15" transform="translate(0.000000, 189.615385)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C16" transform="translate(0.000000, 168.547009)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C16" transform="translate(0.000000, 168.547009)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C17" transform="translate(0.000000, 147.478632)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C17" transform="translate(0.000000, 147.478632)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C18" transform="translate(0.000000, 126.410256)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C18" transform="translate(0.000000, 126.410256)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C19" transform="translate(0.000000, 105.341880)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C19" transform="translate(0.000000, 105.341880)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C20" transform="translate(0.000000, 84.273504)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C20" transform="translate(0.000000, 84.273504)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C21" transform="translate(0.000000, 63.205128)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C21" transform="translate(0.000000, 63.205128)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" data-seatNumb="C22" transform="translate(0.000000, 42.136752)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C22" transform="translate(0.000000, 42.136752)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
-                <g id="ico_main" (click)="svgClick($event)" (click)="svgClick($event)" data-seatNumb="C23" transform="translate(0.000000, 21.068376)" fill="#43A9C7">
+                <g id="ico_main" fill="#43A9C7" (click)="svgClick($event)" (click)="svgClick($event)" data-seatNumb="C23" transform="translate(0.000000, 21.068376)" >
                   <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                   
                 </g>
@@ -886,12 +886,12 @@
             </g>
             <g id="ico_premium1" 
               transform="translate(129.500000, 255.500000) rotate(-90.000000) translate(-129.500000, -255.500000) translate(120.000000, 246.000000)">
-              <rect id="bg" fill="#00416B" x="0" y="0" width="19" height="19" rx="4"></rect>
+              <rect fill="#00416B" id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
               <path
                 d="M17.7333333,14.236415 C16.7823833,13.927665 16.1481,13.8994817 15.7240833,14.006515 C15.6959,13.5729983 15.4729667,12.9827317 14.8833333,12.1802983 C14.2937,12.9827317 14.0707667,13.5729983 14.0422667,14.006515 C13.6185667,13.8994817 12.9842833,13.927665 12.0333333,14.236415 C12.6198,15.041065 13.1160167,15.4346817 13.5226167,15.5955483 C13.2889167,15.962565 13.1201333,16.5702483 13.1217167,17.5636317 C14.0733,17.258365 14.6037167,16.9112983 14.8833333,16.5775317 C15.16295,16.9112983 15.6933667,17.258365 16.6446333,17.5636317 C16.6465333,16.5702483 16.47775,15.962565 16.24405,15.5955483 C16.6503333,15.4346817 17.1468667,15.041065 17.7333333,14.236415"
                 id="star" fill="#FFFFFF"></path>
             </g>
-            <g id="ico_main1" transform="translate(264.000000, 246.000000)" fill="#43A9C7">
+            <g id="ico_main1" fill="#43A9C7" transform="translate(264.000000, 246.000000)" >
               <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
               
             </g>
