@@ -15,15 +15,16 @@ export class FlyApiComponent implements OnInit {
   constructor(private flyApi: FlyApiService, private weatherApi: WeatherApiService, private modalServise: NgbModal) { }
 
   ngOnInit(): void {
+    
   }
   options: NgbModalOptions = {
     size: 'lg'
   }
   public isCollapsed = true;
   apiData: any;
-  weather: any;
+  weatherDestination: any;
+  weatherOrigin: any;
   dataApi(origin: string, destination: string, ccy: string, passangers: string,) {
-    this.weatherApi.cityOrigin = origin;
     this.weatherApi.cityDestination = destination;
     this.flyApi.passangersCount = passangers;
     if (origin && destination && ccy && passangers) {
@@ -38,9 +39,10 @@ export class FlyApiComponent implements OnInit {
 
 
   }
-  showTicket(price: number, departure: string) {
+  showTicket(price: number) {
+    this.flyApi.ticketPrice = price
     this.weatherApi.getApiDataDestination().subscribe({
-      next: data => this.weather = data,
+      next: data => this.weatherDestination = data,
       error: err => console.log(err),
     })
     this.modalServise.open(ModalComponent, this.options)

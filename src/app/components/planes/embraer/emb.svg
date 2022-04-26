@@ -1,15 +1,27 @@
-<svg viewBox="0 0 186 70" version="1.1" id="svg5" inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-      sodipodi:docname="emb.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
-      xmlns:svg="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 186 70" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
       <!-- <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0"
         inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:document-units="mm"
         showgrid="false" inkscape:zoom="0.763461" inkscape:cx="318.28738" inkscape:cy="-55.012633"
         inkscape:window-width="1920" inkscape:window-height="1017" inkscape:window-x="-8" inkscape:window-y="-8"
         inkscape:window-maximized="1" inkscape:current-layer="g11376" /> -->
-      <defs id="defs2">
+      <defs>
         <rect x="155" y="40" width="10" height="55" id="rect6458" />
+        <rect id="path2" x='0' y='0' width="20" height="19" />
+        <polygon id="path-1" points="0 0 63.2112676 0 63.2112676 315.405983 0 315.405983"></polygon>
+        <circle id="circ" cx="50%" cy="50%" r="2" x='0' y='0' width="20" height="19" fill="black"/>
+        <polygon id="cros" xmlns="http://www.w3.org/2000/svg" fill="black" x='0' y='0' width="20" height="19" points="19 0 20 0 0 19 0 18"/>
       </defs>
+      
+      <mask id="mask-2" fill="white" maskContentUnits="objectBoundingBox">
+        <use xlink:href="#path-1"></use>
+      </mask>
+      <mask id="taken" fill="red" maskContentUnits="objectBoundingBox">
+        <rect id="path2" width="20" height="19" x='0' y='0' />
+      </mask>
+      <mask id="choosen" color="blue" maskContentUnits="objectBoundingBox">
+        <use xlink:href="#path2" ></use>
+      </mask>
       <g inkscape:label="Warstwa 1" inkscape:groupmode="layer" id="layer1" transform="translate(-13.326478,-132.24766)">
         <g inkscape:label="Image" id="g15" transform="matrix(0.26458333,0,0,0.26458333,-7.4448876,132.28399)">
           <text xml:space="preserve" id="text6456"
@@ -31,141 +43,216 @@
                 d="m 170.55619,119.51133 h -0.4933 v -1.97319 -1.97316 h -0.52204 -0.52205 l 0.13668,-0.55495 0.13667,-0.55495 0.52128,-1.44676 0.52129,-1.44674 -0.0915,-0.40309 -0.0915,-0.40311 -0.44692,1.54154 -0.44692,1.54153 h -0.33746 -0.33747 v -0.57267 -0.57267 l 0.40493,-1.21552 0.40492,-1.2155 0.24189,-0.30831 0.24189,-0.3083 h 0.63356 0.63355 l -0.43827,-0.32048 -0.43826,-0.32048 0.0828,-0.72775 0.0828,-0.72779 h 0.86326 0.86326 l 0.0828,0.72779 0.0828,0.72775 -0.43827,0.32048 -0.43827,0.32048 h 0.63356 0.63355 l 0.27815,0.33515 0.27816,0.33515 0.49198,1.42997 0.49199,1.43 v 0.33135 0.33135 h -0.4539 -0.4539 l -0.32819,-1.36804 -0.32819,-1.36805 -0.20449,-0.12643 -0.2045,-0.12641 v 0.16157 0.16158 l 0.39114,1.34545 0.39113,1.34547 0.34728,0.66567 0.34729,0.66568 0.002,0.18498 0.001,0.18498 h -0.61662 -0.61661 v 1.97317 1.97319 h -0.49329 -0.4933 v -1.97319 -1.97317 h -0.24657 -0.24665 v 1.97317 1.97319 z m 7.89267,0 h -0.49329 l -0.0475,-4.13133 -0.0475,-4.13132 -0.0876,1.54153 -0.0876,1.54154 h -0.35821 -0.3582 v -2.04717 -2.04715 l 0.29598,-0.29598 0.29597,-0.29597 h 1.62787 1.62786 l 0.29597,0.29597 0.29599,0.29598 v 2.04715 2.04717 h -0.35821 -0.3582 l -0.0876,-1.54154 -0.0876,-1.54153 -0.0475,4.13132 -0.0475,4.13133 h -0.49329 -0.49329 v -2.46646 -2.46647 h -0.24666 -0.24664 v 2.46647 2.46646 z m -2.95975,-0.73996 h -0.24665 v -5.30288 -5.30289 h 0.24665 0.24665 v 5.30289 5.30288 z m 3.75966,-9.41845 -0.8033,0.0774 -0.14113,-0.36779 -0.14113,-0.36777 0.0812,-0.5729 0.0812,-0.5729 h 0.86326 0.86327 v 0.86327 0.86326 z"
                 id="path24185" />
             </g>
-            <g id="g11386">
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="D3" width="20" height="19" x="291.89929" y="36"
-                ry="3" />
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="D4" width="20" height="19" x="312.89929" y="36"
-                ry="3" />
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="D1" width="20" height="19" x="249.89931" y="36"
-                ry="3" />
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="D2" width="20" height="19" x="270.89929" y="36"
-                ry="3" />
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="C3" width="20" height="19" x="291.89929" y="57"
-                ry="3" />
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="C4" width="20" height="19" x="312.89929" y="57"
-                ry="3" />
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="C1" width="20" height="19" x="249.89931" y="57"
-                ry="3" />
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="C2" width="20" height="19" x="270.89929" y="57"
-                ry="3" />
+            <g id="g11386" transform="translate(0,0)">
+              <!-- <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+              </mask>
+              <mask id="taken" fill="red">
+                <use xlink:href="#path-1"></use>
+                <polygon xmlns="http://www.w3.org/2000/svg" fill="white" points="18 0 19 0 0 19 0 18"/>
+              </mask>
+              <mask id="choosen" fill="black">
+                <use xlink:href="#path-1"></use>
+                <circle cx="9.5" cy="9.5" r="7" style="stroke:none; fill: #ffffff"/>
+              </mask> -->
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D3">
+              <rect width="20" height="19" x="291.89929" y="36" ry="3"/>
+              </g>
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D4">
+              <rect width="20" height="19" x="312.89929" y="36" ry="3"/>
+              </g>
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D1">
+              <rect width="20" height="19" x="249.89931" y="36" ry="3"/>
+              </g>
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D2">
+              <rect width="20" height="19" x="270.89929" y="36" ry="3"/>
+              </g>
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C3">
+              <rect width="20" height="19" x="291.89929" y="57" ry="3"/>
+              </g>
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C4">
+              <rect width="20" height="19" x="312.89929" y="57" ry="3"/>
+              </g>
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C1">
+              <rect width="20" height="19" x="249.89931" y="57" ry="3"/>
+              </g>
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C2">
+              <rect width="20" height="19" x="270.89929" y="57" ry="3"/>
+              </g>
             </g>
             <g id="g11392">
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="A3" width="20" height="19" x="291.89929" y="117"
-                ry="3" />
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="A4" width="20" height="19" x="312.89929" y="117"
-                ry="3" />
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="A1" width="20" height="19" x="249.89931" y="117"
-                ry="3" />
-              <rect style="fill:#00416B" id="ico_first" (click)="svgClick($event)" data-seatNumb="A2" width="20" height="19" x="270.89929" y="117"
-                ry="3" />
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A3">
+              <rect width="20" height="19" x="291.89929" y="117"
+                ry="3" /></g>
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A4">
+              <rect width="20" height="19" x="312.89929" y="117"
+                ry="3" /></g>
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A1">
+              <rect width="20" height="19" x="249.89931" y="117"
+                ry="3" /></g>
+              <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A2">
+              <rect width="20" height="19" x="270.89929" y="117"
+                ry="3" /></g>
             </g>
             <g id="g11508">
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D9" width="20" height="19" x="421.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C9" width="20" height="19" x="421.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D12" width="20" height="19" x="484.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D13" width="20" height="19" x="505.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D10" width="20" height="19" x="442.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D11" width="20" height="19" x="463.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C12" width="20" height="19" x="484.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C13" width="20" height="19" x="505.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C10" width="20" height="19" x="442.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C11" width="20" height="19" x="463.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D16" width="20" height="19" x="568.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D17" width="20" height="19" x="589.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D14" width="20" height="19" x="526.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D15" width="20" height="19" x="547.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C16" width="20" height="19" x="568.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C17" width="20" height="19" x="589.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C14" width="20" height="19" x="526.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C15" width="20" height="19" x="547.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D20" width="20" height="19" x="652.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D21" width="20" height="19" x="673.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D18" width="20" height="19" x="610.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="D19" width="20" height="19" x="631.89929" y="35"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C20" width="20" height="19" x="652.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C21" width="20" height="19" x="673.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C18" width="20" height="19" x="610.89929" y="56"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="C19" width="20" height="19" x="631.89929" y="56"
-                ry="3" />
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D9">
+              <rect width="20" height="19" x="421.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C9">
+              <rect width="20" height="19" x="421.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D12">
+              <rect width="20" height="19" x="484.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D13">
+              <rect width="20" height="19" x="505.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D10">
+              <rect width="20" height="19" x="442.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D11">
+              <rect width="20" height="19" x="463.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C12">
+              <rect width="20" height="19" x="484.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C13">
+              <rect width="20" height="19" x="505.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C10">
+              <rect width="20" height="19" x="442.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C11">
+              <rect width="20" height="19" x="463.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D16">
+              <rect width="20" height="19" x="568.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D17">
+              <rect width="20" height="19" x="589.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D14">
+              <rect width="20" height="19" x="526.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D15">
+              <rect width="20" height="19" x="547.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C16">
+              <rect width="20" height="19" x="568.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C17">
+              <rect width="20" height="19" x="589.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C14">
+              <rect width="20" height="19" x="526.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C15">
+              <rect width="20" height="19" x="547.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D20">
+              <rect width="20" height="19" x="652.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D21">
+              <rect width="20" height="19" x="673.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D18">
+              <rect width="20" height="19" x="610.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D19">
+              <rect width="20" height="19" x="631.89929" y="35"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C20">
+              <rect width="20" height="19" x="652.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C21">
+              <rect width="20" height="19" x="673.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C18">
+              <rect width="20" height="19" x="610.89929" y="56"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C19">
+              <rect width="20" height="19" x="631.89929" y="56"
+                ry="3" /></g>
             </g>
             <g id="g11536">
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B9" width="20" height="19" x="421.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A9" width="20" height="19" x="421.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B12" width="20" height="19" x="484.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B13" width="20" height="19" x="505.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B10" width="20" height="19" x="442.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B11" width="20" height="19" x="463.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A12" width="20" height="19" x="484.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A13" width="20" height="19" x="505.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A10" width="20" height="19" x="442.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A11" width="20" height="19" x="463.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B16" width="20" height="19" x="568.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B17" width="20" height="19" x="589.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B14" width="20" height="19" x="526.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B15" width="20" height="19" x="547.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A16" width="20" height="19" x="568.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A17" width="20" height="19" x="589.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A14" width="20" height="19" x="526.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A15" width="20" height="19" x="547.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B20" width="20" height="19" x="652.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B21" width="20" height="19" x="673.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B18" width="20" height="19" x="610.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="B19" width="20" height="19" x="631.89929" y="96"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A20" width="20" height="19" x="652.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A21" width="20" height="19" x="673.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A18" width="20" height="19" x="610.89929" y="117"
-                ry="3" />
-              <rect style="fill:#43A9C7" id="ico_main" (click)="svgClick($event)" data-seatNumb="A19" width="20" height="19" x="631.89929" y="117"
-                ry="3" />
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B9">
+              <rect width="20" height="19" x="421.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A9">
+              <rect width="20" height="19" x="421.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B12">
+              <rect width="20" height="19" x="484.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B13">
+              <rect width="20" height="19" x="505.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B10">
+              <rect width="20" height="19" x="442.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B11">
+              <rect width="20" height="19" x="463.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A12">
+              <rect width="20" height="19" x="484.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A13">
+              <rect width="20" height="19" x="505.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A10">
+              <rect width="20" height="19" x="442.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A11">
+              <rect width="20" height="19" x="463.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B16">
+              <rect width="20" height="19" x="568.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B17">
+              <rect width="20" height="19" x="589.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B14">
+              <rect width="20" height="19" x="526.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B15">
+              <rect width="20" height="19" x="547.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A16">
+              <rect width="20" height="19" x="568.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A17">
+              <rect width="20" height="19" x="589.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A14">
+              <rect width="20" height="19" x="526.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A15">
+              <rect width="20" height="19" x="547.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B20">
+              <rect width="20" height="19" x="652.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B21">
+              <rect width="20" height="19" x="673.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B18">
+              <rect width="20" height="19" x="610.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B19">
+              <rect width="20" height="19" x="631.89929" y="96"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A20">
+              <rect width="20" height="19" x="652.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A21">
+              <rect width="20" height="19" x="673.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A18">
+              <rect width="20" height="19" x="610.89929" y="117"
+                ry="3" /></g>
+              <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A19">
+              <rect width="20" height="19" x="631.89929" y="117"
+                ry="3" /></g>
             </g>
             <text xml:space="preserve"
               style="font-size:7px;line-height:3.05;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb"
@@ -276,8 +363,8 @@
               </text>
             </g>
             <g id="g11460">
-              <g id="g11420">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="B6" width="20" height="19" x="357.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="B6">
+                <rect width="20" height="19" x="357.89929"
                   y="96" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-2"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -287,8 +374,8 @@
                   transform="matrix(1.1300393,0,0,1.1649776,42.799221,-40.435952)"
                   d="m 284.77878,122.6032 -1.77877,-0.60319 -1.50531,1.12334 0.024,-1.87811 -1.53353,-1.0845 1.79361,-0.55754 0.55753,-1.7936 1.08451,1.53353 1.87811,-0.024 -1.12335,1.50531 z" />
               </g>
-              <g id="g11424">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="B7" width="20" height="19" x="378.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="B7">
+                <rect width="20" height="19" x="378.89929"
                   y="96" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-0-1"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -298,8 +385,8 @@
                   transform="matrix(1.1300393,0,0,1.1649776,63.928357,-40.435955)"
                   d="m 284.77878,122.6032 -1.77877,-0.60319 -1.50531,1.12334 0.024,-1.87811 -1.53353,-1.0845 1.79361,-0.55754 0.55753,-1.7936 1.08451,1.53353 1.87811,-0.024 -1.12335,1.50531 z" />
               </g>
-              <g id="g11428">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="B8" width="20" height="19" x="399.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="B8">
+                <rect width="20" height="19" x="399.89929"
                   y="96" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-0-7-6"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -309,8 +396,8 @@
                   transform="matrix(1.1300393,0,0,1.1649776,84.987058,-40.435955)"
                   d="m 284.77878,122.6032 -1.77877,-0.60319 -1.50531,1.12334 0.024,-1.87811 -1.53353,-1.0845 1.79361,-0.55754 0.55753,-1.7936 1.08451,1.53353 1.87811,-0.024 -1.12335,1.50531 z" />
               </g>
-              <g id="g11432">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="A6" width="20" height="19" x="357.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A6">
+                <rect width="20" height="19" x="357.89929"
                   y="117" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -320,8 +407,8 @@
                   inkscape:transform-center-x="0.15452223" inkscape:transform-center-y="-0.15929125"
                   transform="matrix(1.1300393,0,0,1.1649776,42.799216,-19.43595)" />
               </g>
-              <g id="g11436">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="A7" width="20" height="19" x="378.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A7">
+                <rect width="20" height="19" x="378.89929"
                   y="117" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-0"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -331,8 +418,8 @@
                   transform="matrix(1.1300393,0,0,1.1649776,63.928352,-19.435953)"
                   d="m 284.77878,122.6032 -1.77877,-0.60319 -1.50531,1.12334 0.024,-1.87811 -1.53353,-1.0845 1.79361,-0.55754 0.55753,-1.7936 1.08451,1.53353 1.87811,-0.024 -1.12335,1.50531 z" />
               </g>
-              <g id="g11440">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="A8" width="20" height="19" x="399.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A8">
+                <rect width="20" height="19" x="399.89929"
                   y="117" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-0-7"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -344,8 +431,8 @@
               </g>
             </g>
             <g id="g11480">
-              <g id="g11396">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="D6" width="20" height="19" x="357.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D6">
+                <rect width="20" height="19" x="357.89929"
                   y="35" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-2-5"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -355,8 +442,8 @@
                   transform="matrix(1.1300393,0,0,1.1649776,42.799221,-101.43595)"
                   d="m 284.77878,122.6032 -1.77877,-0.60319 -1.50531,1.12334 0.024,-1.87811 -1.53353,-1.0845 1.79361,-0.55754 0.55753,-1.7936 1.08451,1.53353 1.87811,-0.024 -1.12335,1.50531 z" />
               </g>
-              <g id="g11400">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="D7" width="20" height="19" x="378.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D7">
+                <rect width="20" height="19" x="378.89929"
                   y="35" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-0-1-1"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -366,8 +453,8 @@
                   transform="matrix(1.1300393,0,0,1.1649776,63.928357,-101.43596)"
                   d="m 284.77878,122.6032 -1.77877,-0.60319 -1.50531,1.12334 0.024,-1.87811 -1.53353,-1.0845 1.79361,-0.55754 0.55753,-1.7936 1.08451,1.53353 1.87811,-0.024 -1.12335,1.50531 z" />
               </g>
-              <g id="g11404">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="D8" width="20" height="19" x="399.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D8">
+                <rect width="20" height="19" x="399.89929"
                   y="35" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-0-7-6-0"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -377,8 +464,8 @@
                   transform="matrix(1.1300393,0,0,1.1649776,84.987058,-101.43596)"
                   d="m 284.77878,122.6032 -1.77877,-0.60319 -1.50531,1.12334 0.024,-1.87811 -1.53353,-1.0845 1.79361,-0.55754 0.55753,-1.7936 1.08451,1.53353 1.87811,-0.024 -1.12335,1.50531 z" />
               </g>
-              <g id="g11408">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="C6" width="20" height="19" x="357.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C6">
+                <rect width="20" height="19" x="357.89929"
                   y="56" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-4"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -388,8 +475,8 @@
                   transform="matrix(1.1300393,0,0,1.1649776,42.799216,-80.43595)"
                   d="m 284.77878,122.6032 -1.77877,-0.60319 -1.50531,1.12334 0.024,-1.87811 -1.53353,-1.0845 1.79361,-0.55754 0.55753,-1.7936 1.08451,1.53353 1.87811,-0.024 -1.12335,1.50531 z" />
               </g>
-              <g id="g11412">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="C7" width="20" height="19" x="378.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C7">
+                <rect width="20" height="19" x="378.89929"
                   y="56" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-0-2"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"
@@ -399,8 +486,8 @@
                   transform="matrix(1.1300393,0,0,1.1649776,63.928352,-80.435953)"
                   d="m 284.77878,122.6032 -1.77877,-0.60319 -1.50531,1.12334 0.024,-1.87811 -1.53353,-1.0845 1.79361,-0.55754 0.55753,-1.7936 1.08451,1.53353 1.87811,-0.024 -1.12335,1.50531 z" />
               </g>
-              <g id="g11416">
-                <rect style="fill:#00416B" id="ico_premium" (click)="svgClick($event)" data-seatNumb="C8" width="20" height="19" x="399.89929"
+              <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C8">
+                <rect width="20" height="19" x="399.89929"
                   y="56" ry="3" />
                 <path sodipodi:type="star" style="fill:#ffffff;fill-opacity:0.94902" id="path183451-0-7-3"
                   inkscape:flatsided="false" sodipodi:sides="5" sodipodi:cx="282.77878" sodipodi:cy="120.6032"

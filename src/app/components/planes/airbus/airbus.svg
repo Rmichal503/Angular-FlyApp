@@ -1,6 +1,20 @@
 <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g fill="none" fill-rule="evenodd">
     <path d="M0 0h800v300H0z"/>
+    <defs>
+      <polygon id="path-1" points="0 0 63.2112676 0 63.2112676 315.405983 0 315.405983"></polygon>
+    </defs>
+    <mask id="mask-2" fill="white">
+      <use xlink:href="#path-1"></use>
+    </mask>
+    <mask id="taken" fill="red">
+      <use xlink:href="#path-1"></use>
+      <polygon xmlns="http://www.w3.org/2000/svg" fill="white" points="13.128 0 14.128 0 0 14.128 0 13.128"/>
+    </mask>
+    <mask id="choosen" fill="black">
+      <use xlink:href="#path-1"></use>
+      <circle cx="9.5" cy="9.5" r="7" style="stroke:none; fill: #ffffff"/>
+    </mask>
     <g transform="rotate(-90 110.735 109.875)" fill="#F5F5F5">
       <ellipse transform="rotate(90 77.979 769.3)" cx="77.979" cy="769.3" rx="22.706" ry="57.567"/>
       <path d="M20.036 76.828c16.993 50.934 36.045 76.4 57.157 76.4 21.112 0 40.455-25.466 58.03-76.4C115.229 25.894 95.885.427 77.193.427s-37.745 25.467-57.157 76.4zM135.558 345.188l20.435 20.34v93.743h-20.435z"/>
@@ -41,728 +55,728 @@
       </g>
     </g>
     <g id='premium'>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="A6" transform="rotate(-90 206.306 -11.581)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A6" transform="rotate(-90 206.306 -11.581)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="D6" transform="rotate(-90 176.56 -41.327)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D6" transform="rotate(-90 176.56 -41.327)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="B6" transform="rotate(-90 198.586 -19.302)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="B6" transform="rotate(-90 198.586 -19.302)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="E6" transform="rotate(-90 168.84 -49.047)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="E6" transform="rotate(-90 168.84 -49.047)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="C6" transform="rotate(-90 190.866 -27.022)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C6" transform="rotate(-90 190.866 -27.022)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="F6" transform="rotate(-90 161.12 -56.767)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F6" transform="rotate(-90 161.12 -56.767)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
     </g>
     <g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A10" transform="rotate(-90 239.754 -45.03)" >
+      <g #ico_main mask="url(#mask-2)" mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A10" transform="rotate(-90 239.754 -45.03)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="A9" transform="rotate(-90 229.743 -35.018)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A9" transform="rotate(-90 229.743 -35.018)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="A8" transform="rotate(-90 222.006 -27.281)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A8" transform="rotate(-90 222.006 -27.281)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="A7" transform="rotate(-90 214.27 -19.545)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A7" transform="rotate(-90 214.27 -19.545)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C13" transform="rotate(-90 247.523 -83.678)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C13" transform="rotate(-90 247.523 -83.678)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C12" transform="rotate(-90 239.786 -75.942)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C12" transform="rotate(-90 239.786 -75.942)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C11" transform="rotate(-90 232.05 -68.206)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C11" transform="rotate(-90 232.05 -68.206)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C10" transform="rotate(-90 224.314 -60.47)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C10" transform="rotate(-90 224.314 -60.47)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="C9" transform="rotate(-90 214.302 -50.458)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C9" transform="rotate(-90 214.302 -50.458)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="C8" transform="rotate(-90 206.566 -42.722)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C8" transform="rotate(-90 206.566 -42.722)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="C7" transform="rotate(-90 198.83 -34.985)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C7" transform="rotate(-90 198.83 -34.985)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B13" transform="rotate(-90 255.243 -75.958)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B13" transform="rotate(-90 255.243 -75.958)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B12" transform="rotate(-90 247.506 -68.222)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B12" transform="rotate(-90 247.506 -68.222)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B11" transform="rotate(-90 239.77 -60.486)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B11" transform="rotate(-90 239.77 -60.486)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B10" transform="rotate(-90 232.034 -52.75)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B10" transform="rotate(-90 232.034 -52.75)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="B9" transform="rotate(-90 222.022 -42.738)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="B9" transform="rotate(-90 222.022 -42.738)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="B8" transform="rotate(-90 214.286 -35.002)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="B8" transform="rotate(-90 214.286 -35.002)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="B7" transform="rotate(-90 206.55 -27.265)">
+      <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="B7" transform="rotate(-90 206.55 -27.265)">
         <rect  width="14.128" height="14.128" rx="1.816"/>
         <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A13" transform="rotate(-90 262.963 -68.238)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A13" transform="rotate(-90 262.963 -68.238)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A12" transform="rotate(-90 255.227 -60.502)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A12" transform="rotate(-90 255.227 -60.502)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A11" transform="rotate(-90 247.49 -52.765)" >
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A11" transform="rotate(-90 247.49 -52.765)" >
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
       <g>
-        <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="D9" transform="rotate(-90 199.997 -64.763)">
+        <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D9" transform="rotate(-90 199.997 -64.763)">
           <rect  width="14.128" height="14.128" rx="1.816"/>
           <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F13" transform="rotate(-90 217.604 -113.25)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F13" transform="rotate(-90 217.604 -113.25)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F12" transform="rotate(-90 209.868 -105.515)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F12" transform="rotate(-90 209.868 -105.515)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F11" transform="rotate(-90 202.132 -97.778)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F11" transform="rotate(-90 202.132 -97.778)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F10" transform="rotate(-90 194.396 -90.042)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F10" transform="rotate(-90 194.396 -90.042)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
-        <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="F9" transform="rotate(-90 184.557 -80.203)">
+        <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F9" transform="rotate(-90 184.557 -80.203)">
           <rect  width="14.128" height="14.128" rx="1.816"/>
           <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E13" transform="rotate(-90 225.324 -105.53)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E13" transform="rotate(-90 225.324 -105.53)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E12" transform="rotate(-90 217.588 -97.794)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E12" transform="rotate(-90 217.588 -97.794)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E11" transform="rotate(-90 209.852 -90.058)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E11" transform="rotate(-90 209.852 -90.058)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E10" transform="rotate(-90 202.116 -82.322)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E10" transform="rotate(-90 202.116 -82.322)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
-        <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="E9" transform="rotate(-90 192.277 -72.483)">
+        <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="E9" transform="rotate(-90 192.277 -72.483)">
           <rect  width="14.128" height="14.128" rx="1.816"/>
           <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
         </g>
-        <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="D8" transform="rotate(-90 192.26 -57.027)">
+        <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D8" transform="rotate(-90 192.26 -57.027)">
           <rect  width="14.128" height="14.128" rx="1.816"/>
           <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
         </g>
-        <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="F8" transform="rotate(-90 176.82 -72.467)">
+        <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F8" transform="rotate(-90 176.82 -72.467)">
           <rect  width="14.128" height="14.128" rx="1.816"/>
           <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
         </g>
-        <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="E8" transform="rotate(-90 184.54 -64.747)">
+        <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="E8" transform="rotate(-90 184.54 -64.747)">
           <rect  width="14.128" height="14.128" rx="1.816"/>
           <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
         </g>
-        <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="D7" transform="rotate(-90 184.525 -49.29)">
+        <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D7" transform="rotate(-90 184.525 -49.29)">
           <rect  width="14.128" height="14.128" rx="1.816"/>
           <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
         </g>
-        <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="F7" transform="rotate(-90 169.084 -64.73)">
+        <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F7" transform="rotate(-90 169.084 -64.73)">
           <rect  width="14.128" height="14.128" rx="1.816"/>
           <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
         </g>
-        <g #ico_premium fill="#00416B" (click)="svgClick($event)" data-seatNumb="E7" transform="rotate(-90 176.804 -57.01)">
+        <g #ico_premium mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="E7" transform="rotate(-90 176.804 -57.01)">
           <rect  width="14.128" height="14.128" rx="1.816"/>
           <path d="M13.186 10.586c-.707-.23-1.179-.25-1.494-.171-.021-.323-.187-.762-.625-1.358-.439.596-.605 1.035-.626 1.358-.315-.08-.786-.059-1.493.17.436.599.805.892 1.107 1.011-.174.273-.3.725-.298 1.464.707-.227 1.102-.485 1.31-.734.208.249.602.507 1.31.734 0-.739-.125-1.19-.299-1.464.303-.12.672-.412 1.108-1.01" fill="#FFF"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D13" transform="rotate(-90 233.045 -97.81)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D13" transform="rotate(-90 233.045 -97.81)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D12" transform="rotate(-90 225.308 -90.074)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D12" transform="rotate(-90 225.308 -90.074)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
-        <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D11" transform="rotate(-90 217.572 -82.338)" >
+        <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D11" transform="rotate(-90 217.572 -82.338)" >
           <rect width="14.128" height="14.128" rx="1.816"/>
           <rect width="14.128" height="14.128" rx="1.816"/>
         </g>
       </g>
     </g>
     <g >
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C24" transform="rotate(-90 309.412 -145.568)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C24" transform="rotate(-90 309.412 -145.568)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C23" transform="rotate(-90 301.676 -137.832)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C23" transform="rotate(-90 301.676 -137.832)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C22" transform="rotate(-90 293.94 -130.096)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C22" transform="rotate(-90 293.94 -130.096)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C21" transform="rotate(-90 286.204 -122.36)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C21" transform="rotate(-90 286.204 -122.36)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C20" transform="rotate(-90 278.467 -114.623)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C20" transform="rotate(-90 278.467 -114.623)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C19" transform="rotate(-90 270.731 -106.887)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C19" transform="rotate(-90 270.731 -106.887)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C18" transform="rotate(-90 262.995 -99.15)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C18" transform="rotate(-90 262.995 -99.15)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C14" transform="rotate(-90 255.259 -91.414)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C14" transform="rotate(-90 255.259 -91.414)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B24" transform="rotate(-90 317.133 -137.848)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B24" transform="rotate(-90 317.133 -137.848)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B23" transform="rotate(-90 309.396 -130.112)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B23" transform="rotate(-90 309.396 -130.112)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B22" transform="rotate(-90 301.66 -122.375)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B22" transform="rotate(-90 301.66 -122.375)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B21" transform="rotate(-90 293.924 -114.64)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B21" transform="rotate(-90 293.924 -114.64)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B20" transform="rotate(-90 286.188 -106.903)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B20" transform="rotate(-90 286.188 -106.903)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B19" transform="rotate(-90 278.451 -99.167)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B19" transform="rotate(-90 278.451 -99.167)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B18" transform="rotate(-90 270.715 -91.43)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B18" transform="rotate(-90 270.715 -91.43)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B14" transform="rotate(-90 262.979 -83.694)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B14" transform="rotate(-90 262.979 -83.694)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A24" transform="rotate(-90 324.853 -130.128)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A24" transform="rotate(-90 324.853 -130.128)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A23" transform="rotate(-90 317.117 -122.391)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A23" transform="rotate(-90 317.117 -122.391)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A22" transform="rotate(-90 309.38 -114.655)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A22" transform="rotate(-90 309.38 -114.655)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A21" transform="rotate(-90 301.644 -106.919)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A21" transform="rotate(-90 301.644 -106.919)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A20" transform="rotate(-90 293.908 -99.183)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A20" transform="rotate(-90 293.908 -99.183)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C32" transform="rotate(-90 374.715 -210.871)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C32" transform="rotate(-90 374.715 -210.871)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C31" transform="rotate(-90 366.979 -203.135)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C31" transform="rotate(-90 366.979 -203.135)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C30" transform="rotate(-90 359.243 -195.399)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C30" transform="rotate(-90 359.243 -195.399)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C37" transform="rotate(-90 413.396 -249.552)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C37" transform="rotate(-90 413.396 -249.552)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C38" transform="rotate(-90 421.133 -257.288)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C38" transform="rotate(-90 421.133 -257.288)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C29" transform="rotate(-90 351.507 -187.662)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C29" transform="rotate(-90 351.507 -187.662)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C28" transform="rotate(-90 343.77 -179.926)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C28" transform="rotate(-90 343.77 -179.926)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C35" transform="rotate(-90 397.924 -234.08)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C35" transform="rotate(-90 397.924 -234.08)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C36" transform="rotate(-90 405.66 -241.816)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C36" transform="rotate(-90 405.66 -241.816)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C27" transform="rotate(-90 336.034 -172.19)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C27" transform="rotate(-90 336.034 -172.19)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C34" transform="rotate(-90 390.188 -226.343)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C34" transform="rotate(-90 390.188 -226.343)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C26" transform="rotate(-90 328.298 -164.454)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C26" transform="rotate(-90 328.298 -164.454)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C33" transform="rotate(-90 382.452 -218.607)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="C33" transform="rotate(-90 382.452 -218.607)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B32" transform="rotate(-90 382.435 -203.15)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B32" transform="rotate(-90 382.435 -203.15)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B31" transform="rotate(-90 374.7 -195.415)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B31" transform="rotate(-90 374.7 -195.415)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B30" transform="rotate(-90 366.963 -187.678)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B30" transform="rotate(-90 366.963 -187.678)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B37" transform="rotate(-90 421.117 -241.832)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B37" transform="rotate(-90 421.117 -241.832)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B38" transform="rotate(-90 428.853 -249.568)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B38" transform="rotate(-90 428.853 -249.568)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B29" transform="rotate(-90 359.227 -179.942)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B29" transform="rotate(-90 359.227 -179.942)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B28" transform="rotate(-90 351.49 -172.206)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B28" transform="rotate(-90 351.49 -172.206)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B35" transform="rotate(-90 405.644 -226.36)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B35" transform="rotate(-90 405.644 -226.36)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B36" transform="rotate(-90 413.38 -234.096)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B36" transform="rotate(-90 413.38 -234.096)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B27" transform="rotate(-90 343.754 -164.47)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B27" transform="rotate(-90 343.754 -164.47)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B34" transform="rotate(-90 397.908 -218.623)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B34" transform="rotate(-90 397.908 -218.623)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B26" transform="rotate(-90 336.018 -156.733)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B26" transform="rotate(-90 336.018 -156.733)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B33" transform="rotate(-90 390.172 -210.887)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="B33" transform="rotate(-90 390.172 -210.887)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A32" transform="rotate(-90 390.156 -195.43)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A32" transform="rotate(-90 390.156 -195.43)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A31" transform="rotate(-90 382.42 -187.694)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A31" transform="rotate(-90 382.42 -187.694)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A30" transform="rotate(-90 374.683 -179.958)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A30" transform="rotate(-90 374.683 -179.958)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A37" transform="rotate(-90 428.837 -234.112)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A37" transform="rotate(-90 428.837 -234.112)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A38" transform="rotate(-90 436.573 -241.848)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A38" transform="rotate(-90 436.573 -241.848)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A29" transform="rotate(-90 366.947 -172.222)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A29" transform="rotate(-90 366.947 -172.222)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A36" transform="rotate(-90 421.1 -226.376)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A36" transform="rotate(-90 421.1 -226.376)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A28" transform="rotate(-90 359.21 -164.486)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A28" transform="rotate(-90 359.21 -164.486)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A35" transform="rotate(-90 413.364 -218.64)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A35" transform="rotate(-90 413.364 -218.64)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A27" transform="rotate(-90 351.475 -156.75)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A27" transform="rotate(-90 351.475 -156.75)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A34" transform="rotate(-90 405.628 -210.903)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A34" transform="rotate(-90 405.628 -210.903)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A33" transform="rotate(-90 397.892 -203.167)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A33" transform="rotate(-90 397.892 -203.167)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="red" (click)="svgClick($event)" data-seatNumb="A19" transform="rotate(-90 286.172 -91.447)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A19" transform="rotate(-90 286.172 -91.447)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A18" transform="rotate(-90 278.435 -83.71)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A18" transform="rotate(-90 278.435 -83.71)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A14" transform="rotate(-90 270.7 -75.974)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="A14" transform="rotate(-90 270.7 -75.974)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
     </g>
     <g >
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F26" transform="rotate(-90 298.45 -194.097)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F26" transform="rotate(-90 298.45 -194.097)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F33" transform="rotate(-90 352.604 -248.25)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F33" transform="rotate(-90 352.604 -248.25)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F32" transform="rotate(-90 344.868 -240.514)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F32" transform="rotate(-90 344.868 -240.514)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F30" transform="rotate(-90 329.395 -225.042)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F30" transform="rotate(-90 329.395 -225.042)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F37" transform="rotate(-90 383.549 -279.195)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F37" transform="rotate(-90 383.549 -279.195)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F24" transform="rotate(-90 279.494 -175.14)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F24" transform="rotate(-90 279.494 -175.14)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F31" transform="rotate(-90 337.131 -232.778)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F31" transform="rotate(-90 337.131 -232.778)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F29" transform="rotate(-90 321.659 -217.306)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F29" transform="rotate(-90 321.659 -217.306)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F36" transform="rotate(-90 375.813 -271.46)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F36" transform="rotate(-90 375.813 -271.46)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F23" transform="rotate(-90 271.758 -167.405)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F23" transform="rotate(-90 271.758 -167.405)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F28" transform="rotate(-90 313.923 -209.57)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F28" transform="rotate(-90 313.923 -209.57)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F35" transform="rotate(-90 368.076 -263.723)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F35" transform="rotate(-90 368.076 -263.723)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F22" transform="rotate(-90 264.022 -159.668)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F22" transform="rotate(-90 264.022 -159.668)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F27" transform="rotate(-90 306.186 -201.833)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F27" transform="rotate(-90 306.186 -201.833)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F34" transform="rotate(-90 360.34 -255.987)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F34" transform="rotate(-90 360.34 -255.987)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F21" transform="rotate(-90 256.285 -151.932)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F21" transform="rotate(-90 256.285 -151.932)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F20" transform="rotate(-90 248.55 -144.196)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F20" transform="rotate(-90 248.55 -144.196)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F19" transform="rotate(-90 240.813 -136.46)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F19" transform="rotate(-90 240.813 -136.46)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F18" transform="rotate(-90 233.077 -128.723)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F18" transform="rotate(-90 233.077 -128.723)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F14" transform="rotate(-90 225.34 -120.987)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F14" transform="rotate(-90 225.34 -120.987)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E26" transform="rotate(-90 306.17 -186.377)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E26" transform="rotate(-90 306.17 -186.377)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E33" transform="rotate(-90 360.324 -240.53)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E33" transform="rotate(-90 360.324 -240.53)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E25" transform="rotate(-90 294.95 -175.157)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E25" transform="rotate(-90 294.95 -175.157)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E32" transform="rotate(-90 352.588 -232.794)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E32" transform="rotate(-90 352.588 -232.794)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E30" transform="rotate(-90 337.115 -217.322)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E30" transform="rotate(-90 337.115 -217.322)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E37" transform="rotate(-90 391.269 -271.475)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E37" transform="rotate(-90 391.269 -271.475)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E24" transform="rotate(-90 287.214 -167.42)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E24" transform="rotate(-90 287.214 -167.42)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E31" transform="rotate(-90 344.852 -225.058)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E31" transform="rotate(-90 344.852 -225.058)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E29" transform="rotate(-90 329.38 -209.585)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E29" transform="rotate(-90 329.38 -209.585)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E36" transform="rotate(-90 383.533 -263.739)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E36" transform="rotate(-90 383.533 -263.739)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E23" transform="rotate(-90 279.478 -159.684)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E23" transform="rotate(-90 279.478 -159.684)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E28" transform="rotate(-90 321.643 -201.85)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E28" transform="rotate(-90 321.643 -201.85)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E35" transform="rotate(-90 375.796 -256.003)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E35" transform="rotate(-90 375.796 -256.003)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E22" transform="rotate(-90 271.742 -151.948)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E22" transform="rotate(-90 271.742 -151.948)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E27" transform="rotate(-90 313.907 -194.113)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E27" transform="rotate(-90 313.907 -194.113)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E24" transform="rotate(-90 368.06 -248.267)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E24" transform="rotate(-90 368.06 -248.267)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E21" transform="rotate(-90 264.006 -144.212)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E21" transform="rotate(-90 264.006 -144.212)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E20" transform="rotate(-90 256.27 -136.476)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E20" transform="rotate(-90 256.27 -136.476)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E19" transform="rotate(-90 248.533 -128.74)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E19" transform="rotate(-90 248.533 -128.74)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E18" transform="rotate(-90 240.797 -121.003)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E18" transform="rotate(-90 240.797 -121.003)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E14" transform="rotate(-90 233.06 -113.267)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E14" transform="rotate(-90 233.06 -113.267)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D26" transform="rotate(-90 313.89 -178.656)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D26" transform="rotate(-90 313.89 -178.656)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D33" transform="rotate(-90 368.044 -232.81)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D33" transform="rotate(-90 368.044 -232.81)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D25" transform="rotate(-90 302.67 -167.437)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D25" transform="rotate(-90 302.67 -167.437)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D32" transform="rotate(-90 360.308 -225.074)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D32" transform="rotate(-90 360.308 -225.074)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D30" transform="rotate(-90 344.836 -209.601)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D30" transform="rotate(-90 344.836 -209.601)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D37" transform="rotate(-90 398.99 -263.755)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D37" transform="rotate(-90 398.99 -263.755)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F38" transform="rotate(-90 391.105 -286.752)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="F38" transform="rotate(-90 391.105 -286.752)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E38" transform="rotate(-90 398.825 -279.031)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="E38" transform="rotate(-90 398.825 -279.031)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D38" transform="rotate(-90 406.545 -271.311)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D38" transform="rotate(-90 406.545 -271.311)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D24" transform="rotate(-90 294.935 -159.7)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D24" transform="rotate(-90 294.935 -159.7)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D31" transform="rotate(-90 352.572 -217.338)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D31" transform="rotate(-90 352.572 -217.338)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D29" transform="rotate(-90 337.1 -201.865)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D29" transform="rotate(-90 337.1 -201.865)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D36" transform="rotate(-90 391.253 -256.019)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D36" transform="rotate(-90 391.253 -256.019)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D23" transform="rotate(-90 287.198 -151.964)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D23" transform="rotate(-90 287.198 -151.964)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D28" transform="rotate(-90 329.363 -194.129)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D28" transform="rotate(-90 329.363 -194.129)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D35" transform="rotate(-90 383.517 -248.283)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D35" transform="rotate(-90 383.517 -248.283)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D22" transform="rotate(-90 279.462 -144.228)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D22" transform="rotate(-90 279.462 -144.228)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D27" transform="rotate(-90 321.627 -186.393)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D27" transform="rotate(-90 321.627 -186.393)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D34" transform="rotate(-90 375.78 -240.546)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D34" transform="rotate(-90 375.78 -240.546)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D21" transform="rotate(-90 271.726 -136.492)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D21" transform="rotate(-90 271.726 -136.492)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D20" transform="rotate(-90 263.99 -128.755)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D20" transform="rotate(-90 263.99 -128.755)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D19" transform="rotate(-90 256.253 -121.02)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D19" transform="rotate(-90 256.253 -121.02)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D18" transform="rotate(-90 248.517 -113.283)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D18" transform="rotate(-90 248.517 -113.283)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
-      <g #ico_main fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D14" transform="rotate(-90 240.78 -105.547)">
+      <g #ico_main mask="url(#mask-2)" fill="#43A9C7" (click)="svgClick($event)" data-seatNumb="D14" transform="rotate(-90 240.78 -105.547)">
         <rect width="14.128" height="14.128" rx="1.816"/>
         <rect width="14.128" height="14.128" rx="1.816"/>
       </g>
     </g>
     <g >
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="A1"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 155.762 23.523)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="D1"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 133.737 1.497)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="A2"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 163.498 15.787)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="D2"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 141.473 -6.239)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="C1"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 148.042 15.803)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="F1"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 126.016 -6.223)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="C2"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 155.778 8.066)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="F2"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 133.753 -13.959)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="A3"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 171.294 7.99)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="D3"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 149.269 -14.035)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="A4"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 179.03 .254)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="D4"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 157.005 -21.77)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="C3"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 163.574 .27)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="F3"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 141.549 -21.755)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="C4"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 171.31 -7.466)"/></g>
-        <g #ico_first fill="#00416B" (click)="svgClick($event)" data-seatNumb="F4"><rect width="14.128" height="14.128" rx="1.816" transform="rotate(-90 149.285 -29.491)"/></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A1" transform="rotate(-90 155.762 23.523)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D1" transform="rotate(-90 133.737 1.497)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A2" transform="rotate(-90 163.498 15.787)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D2" transform="rotate(-90 141.473 -6.239)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C1" transform="rotate(-90 148.042 15.803)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F1" transform="rotate(-90 126.016 -6.223)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C2" transform="rotate(-90 155.778 8.066)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F2" transform="rotate(-90 133.753 -13.959)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A3" transform="rotate(-90 171.294 7.99)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D3" transform="rotate(-90 149.269 -14.035)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="A4" transform="rotate(-90 179.03 .254)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="D4" transform="rotate(-90 157.005 -21.77)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C3" transform="rotate(-90 163.574 .27)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F3" transform="rotate(-90 141.549 -21.755)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="C4" transform="rotate(-90 171.31 -7.466)"><rect width="14.128" height="14.128" rx="1.816" /></g>
+        <g #ico_first mask="url(#mask-2)" fill="#00416B" (click)="svgClick($event)" data-seatNumb="F4" transform="rotate(-90 149.285 -29.491)"><rect width="14.128" height="14.128" rx="1.816" /></g>
     </g>
     <g fill="#994442">
       <path d="M731.92 88.319v1h-13.624v-1zM722.506 82.415h-2.016v-3.22h2.016v.59h-1.39v.736h1.258v.559h-1.258v.745h1.39v.59zm3.151-3.22l-1.053 1.612 1.058 1.608h-.758l-.695-1.113-.7 1.113h-.735l1.058-1.612-1.054-1.608h.754l.69 1.113.704-1.113h.731zm1.05 3.22h-.636v-3.22h.635v3.22zm3.115-2.625h-1.018v2.625h-.63V79.79h-1.018v-.595h2.666v.595zM495.318 88.319v1h-13.623v-1zM485.905 82.415h-2.017v-3.22h2.017v.59h-1.39v.736h1.258v.559h-1.258v.745h1.39v.59zm3.151-3.22l-1.053 1.612 1.058 1.608h-.759l-.695-1.113-.699 1.113h-.735l1.058-1.612-1.054-1.608h.754l.69 1.113.704-1.113h.731zm1.049 3.22h-.636v-3.22h.636v3.22zm3.115-2.625h-1.017v2.625h-.631V79.79h-1.017v-.595h2.665v.595zM293.23 88.319v1h-13.623v-1zM283.817 82.415h-2.016v-3.22h2.016v.59h-1.39v.736h1.258v.559h-1.258v.745h1.39v.59zm3.152-3.22l-1.054 1.612 1.058 1.608h-.758l-.695-1.113-.7 1.113h-.735l1.058-1.612-1.054-1.608h.754l.69 1.113.704-1.113h.732zm1.048 3.22h-.635v-3.22h.635v3.22zm3.116-2.625h-1.018v2.625h-.63V79.79h-1.018v-.595h2.666v.595zM116.12 88.774v1h-13.623v-1zM106.707 82.87h-2.017v-3.22h2.017v.59h-1.39v.736h1.258v.559h-1.258v.745h1.39v.59zm3.151-3.22l-1.053 1.612 1.058 1.608h-.759l-.695-1.113-.699 1.113h-.735l1.058-1.612-1.054-1.608h.754l.69 1.113.704-1.113h.731zm1.05 3.22h-.637v-3.22h.636v3.22zm3.114-2.625h-1.017v2.625h-.631v-2.625h-1.017v-.595h2.665v.595z"/>
@@ -780,16 +794,15 @@
       </g>
     </g>
     <g transform="rotate(-90 197.5 77.5)">
-      <rect  width="19" height="19" rx="4"/>
+      <rect fill="#00416B" width="19" height="19" rx="4"/>
       <path d="M17.733 14.236c-.95-.308-1.585-.337-2.009-.23-.028-.433-.251-1.023-.84-1.826-.59.803-.813 1.393-.842 1.827-.423-.108-1.058-.08-2.009.23.587.804 1.083 1.198 1.49 1.359-.234.367-.403.974-.401 1.968.951-.306 1.482-.653 1.761-.986.28.333.81.68 1.762.986.002-.994-.167-1.601-.4-1.968.405-.161.902-.555 1.488-1.36" fill="#FFF"/>
     </g>
     <g transform="translate(264 256)" >
-      <rect width="19" height="19" rx="4"/>
-      <rect width="19" height="19" rx="4"/>
+      <rect fill="#43A9C7" width="19" height="19" rx="4"/>
     </g>
     <path d="M32.316 269H31.14v-8.508h5.172v1.092h-3.996v2.736h3.624v1.104h-3.624V269zm6.564 0h-1.116v-5.772h1.116V269zm-1.368-7.956a.81.81 0 1 1 .804.804.804.804 0 0 1-.804-.804zm6.396 2.124v1.2a3.52 3.52 0 0 0-.492-.036c-.948 0-1.584.504-1.584 1.776V269h-1.128v-5.772h1.104v1.008c.42-.888 1.14-1.104 1.728-1.104.156 0 .312.024.372.036zm.696 4.332l1.02-.36c.072.6.528 1.08 1.344 1.08.636 0 .984-.36.984-.768 0-.36-.264-.636-.744-.744l-.984-.216c-.9-.192-1.44-.804-1.44-1.62 0-.984.924-1.824 2.052-1.824 1.584 0 2.076 1.032 2.196 1.548l-.996.372c-.048-.3-.288-.96-1.2-.96-.576 0-.96.372-.96.768 0 .348.216.6.66.696l.936.204c1.044.228 1.596.864 1.596 1.716 0 .816-.684 1.788-2.112 1.788-1.584 0-2.256-1.02-2.352-1.68zm7.488-6.096v1.824h1.248v1.02h-1.248v3c0 .528.216.792.804.792.144 0 .348-.024.444-.048v.96a2.469 2.469 0 0 1-.768.108c-.984 0-1.608-.6-1.608-1.644v-3.168H49.86v-1.02h.312c.624 0 .888-.384.888-.888v-.936h1.032zm9.516 7.776c-2.196 0-4.224-1.596-4.224-4.44 0-2.844 2.112-4.428 4.224-4.428 1.944 0 3.312 1.056 3.744 2.7l-1.092.384c-.324-1.284-1.26-2.004-2.652-2.004-1.548 0-3.024 1.128-3.024 3.348 0 2.22 1.476 3.36 3.024 3.36 1.452 0 2.364-.876 2.712-2.04l1.044.384c-.456 1.596-1.8 2.736-3.756 2.736zm6.204-.18h-1.128v-8.688h1.128V269zm1.44-1.548c0-1.032.756-1.608 1.752-1.752l1.56-.228c.348-.048.444-.228.444-.432 0-.564-.372-1.032-1.248-1.032-.792 0-1.236.492-1.308 1.164l-1.08-.252c.12-1.104 1.116-1.872 2.364-1.872 1.728 0 2.4.984 2.4 2.112v2.892c0 .504.048.804.072.948h-1.104a4.223 4.223 0 0 1-.06-.78c-.252.408-.828.96-1.86.96-1.176 0-1.932-.816-1.932-1.728zm2.088.78c.924 0 1.668-.444 1.668-1.704v-.264l-1.764.264c-.48.072-.84.348-.84.864 0 .432.36.84.936.84zm4.116-.732l1.02-.36c.072.6.528 1.08 1.344 1.08.636 0 .984-.36.984-.768 0-.36-.264-.636-.744-.744l-.984-.216c-.9-.192-1.44-.804-1.44-1.62 0-.984.924-1.824 2.052-1.824 1.584 0 2.076 1.032 2.196 1.548l-.996.372c-.048-.3-.288-.96-1.2-.96-.576 0-.96.372-.96.768 0 .348.216.6.66.696l.936.204c1.044.228 1.596.864 1.596 1.716 0 .816-.684 1.788-2.112 1.788-1.584 0-2.256-1.02-2.352-1.68zm5.46 0l1.02-.36c.072.6.528 1.08 1.344 1.08.636 0 .984-.36.984-.768 0-.36-.264-.636-.744-.744l-.984-.216c-.9-.192-1.44-.804-1.44-1.62 0-.984.924-1.824 2.052-1.824 1.584 0 2.076 1.032 2.196 1.548l-.996.372c-.048-.3-.288-.96-1.2-.96-.576 0-.96.372-.96.768 0 .348.216.6.66.696l.936.204c1.044.228 1.596.864 1.596 1.716 0 .816-.684 1.788-2.112 1.788-1.584 0-2.256-1.02-2.352-1.68zM152.316 264.464h1.704c1.02 0 1.644-.564 1.644-1.44 0-.9-.624-1.476-1.644-1.476h-1.704v2.916zm1.92 1.056h-1.92V269h-1.176v-8.508h3.096c1.572 0 2.628 1.092 2.628 2.52 0 1.44-1.056 2.508-2.628 2.508zm6.996-2.352v1.2a3.52 3.52 0 0 0-.492-.036c-.948 0-1.584.504-1.584 1.776V269h-1.128v-5.772h1.104v1.008c.42-.888 1.14-1.104 1.728-1.104.156 0 .312.024.372.036zm1.86 2.352h3.156c-.024-.828-.564-1.476-1.584-1.476-.948 0-1.524.732-1.572 1.476zm3.324 1.5l.972.336c-.324 1.02-1.248 1.824-2.592 1.824-1.548 0-2.904-1.128-2.904-3.084 0-1.812 1.308-3.048 2.76-3.048 1.776 0 2.772 1.224 2.772 3.024 0 .144-.012.288-.024.36h-4.344c.024 1.032.768 1.752 1.74 1.752.936 0 1.404-.516 1.62-1.164zm3.54 1.98h-1.116v-5.772h1.08v.768c.36-.636 1.08-.936 1.752-.936.72 0 1.416.348 1.728 1.092.456-.828 1.2-1.092 1.932-1.092 1.008 0 1.992.684 1.992 2.196V269h-1.116v-3.624c0-.756-.372-1.32-1.224-1.32-.792 0-1.332.624-1.332 1.452V269h-1.128v-3.624c0-.744-.36-1.32-1.224-1.32-.804 0-1.344.6-1.344 1.464V269zm10.248 0h-1.116v-5.772h1.116V269zm-1.368-7.956a.81.81 0 1 1 .804.804.804.804 0 0 1-.804-.804zm6.996 7.26c-.312.6-1.032.876-1.704.876-1.344 0-2.16-1.008-2.16-2.316v-3.636h1.128v3.468c0 .792.36 1.488 1.308 1.488.912 0 1.368-.6 1.368-1.476v-3.48h1.128v4.704c0 .456.036.864.06 1.068h-1.08a5.11 5.11 0 0 1-.048-.696zm4.02.696h-1.116v-5.772h1.08v.768c.36-.636 1.08-.936 1.752-.936.72 0 1.416.348 1.728 1.092.456-.828 1.2-1.092 1.932-1.092 1.008 0 1.992.684 1.992 2.196V269h-1.116v-3.624c0-.756-.372-1.32-1.224-1.32-.792 0-1.332.624-1.332 1.452V269h-1.128v-3.624c0-.744-.36-1.32-1.224-1.32-.804 0-1.344.6-1.344 1.464V269zm16.056.18c-2.196 0-4.224-1.596-4.224-4.44 0-2.844 2.112-4.428 4.224-4.428 1.944 0 3.312 1.056 3.744 2.7l-1.092.384c-.324-1.284-1.26-2.004-2.652-2.004-1.548 0-3.024 1.128-3.024 3.348 0 2.22 1.476 3.36 3.024 3.36 1.452 0 2.364-.876 2.712-2.04l1.044.384c-.456 1.596-1.8 2.736-3.756 2.736zm6.204-.18h-1.128v-8.688h1.128V269zm1.44-1.548c0-1.032.756-1.608 1.752-1.752l1.56-.228c.348-.048.444-.228.444-.432 0-.564-.372-1.032-1.248-1.032-.792 0-1.236.492-1.308 1.164l-1.08-.252c.12-1.104 1.116-1.872 2.364-1.872 1.728 0 2.4.984 2.4 2.112v2.892c0 .504.048.804.072.948h-1.104a4.223 4.223 0 0 1-.06-.78c-.252.408-.828.96-1.86.96-1.176 0-1.932-.816-1.932-1.728zm2.088.78c.924 0 1.668-.444 1.668-1.704v-.264l-1.764.264c-.48.072-.84.348-.84.864 0 .432.36.84.936.84zm4.116-.732l1.02-.36c.072.6.528 1.08 1.344 1.08.636 0 .984-.36.984-.768 0-.36-.264-.636-.744-.744l-.984-.216c-.9-.192-1.44-.804-1.44-1.62 0-.984.924-1.824 2.052-1.824 1.584 0 2.076 1.032 2.196 1.548l-.996.372c-.048-.3-.288-.96-1.2-.96-.576 0-.96.372-.96.768 0 .348.216.6.66.696l.936.204c1.044.228 1.596.864 1.596 1.716 0 .816-.684 1.788-2.112 1.788-1.584 0-2.256-1.02-2.352-1.68zm5.46 0l1.02-.36c.072.6.528 1.08 1.344 1.08.636 0 .984-.36.984-.768 0-.36-.264-.636-.744-.744l-.984-.216c-.9-.192-1.44-.804-1.44-1.62 0-.984.924-1.824 2.052-1.824 1.584 0 2.076 1.032 2.196 1.548l-.996.372c-.048-.3-.288-.96-1.2-.96-.576 0-.96.372-.96.768 0 .348.216.6.66.696l.936.204c1.044.228 1.596.864 1.596 1.716 0 .816-.684 1.788-2.112 1.788-1.584 0-2.256-1.02-2.352-1.68zM304.332 269h-1.164v-6.624L300.264 269h-1.08l-2.88-6.624V269h-1.164v-8.508h1.596l3 6.924 3.024-6.924h1.572V269zm1.56-1.548c0-1.032.756-1.608 1.752-1.752l1.56-.228c.348-.048.444-.228.444-.432 0-.564-.372-1.032-1.248-1.032-.792 0-1.236.492-1.308 1.164l-1.08-.252c.12-1.104 1.116-1.872 2.364-1.872 1.728 0 2.4.984 2.4 2.112v2.892c0 .504.048.804.072.948h-1.104a4.223 4.223 0 0 1-.06-.78c-.252.408-.828.96-1.86.96-1.176 0-1.932-.816-1.932-1.728zm2.088.78c.924 0 1.668-.444 1.668-1.704v-.264l-1.764.264c-.48.072-.84.348-.84.864 0 .432.36.84.936.84zm5.688.768h-1.116v-5.772h1.116V269zm-1.368-7.956a.81.81 0 1 1 .804.804.804.804 0 0 1-.804-.804zm4.32 4.62V269h-1.128v-5.772h1.104v.828c.42-.72 1.104-.996 1.776-.996 1.38 0 2.064.996 2.064 2.28V269h-1.128v-3.468c0-.804-.336-1.452-1.344-1.452-.888 0-1.344.708-1.344 1.584zm12.504 3.516c-2.196 0-4.224-1.596-4.224-4.44 0-2.844 2.112-4.428 4.224-4.428 1.944 0 3.312 1.056 3.744 2.7l-1.092.384c-.324-1.284-1.26-2.004-2.652-2.004-1.548 0-3.024 1.128-3.024 3.348 0 2.22 1.476 3.36 3.024 3.36 1.452 0 2.364-.876 2.712-2.04l1.044.384c-.456 1.596-1.8 2.736-3.756 2.736zm4.692-1.728c0-1.032.756-1.608 1.752-1.752l1.56-.228c.348-.048.444-.228.444-.432 0-.564-.372-1.032-1.248-1.032-.792 0-1.236.492-1.308 1.164l-1.08-.252c.12-1.104 1.116-1.872 2.364-1.872 1.728 0 2.4.984 2.4 2.112v2.892c0 .504.048.804.072.948h-1.104a4.223 4.223 0 0 1-.06-.78c-.252.408-.828.96-1.86.96-1.176 0-1.932-.816-1.932-1.728zm2.088.78c.924 0 1.668-.444 1.668-1.704v-.264l-1.764.264c-.48.072-.84.348-.84.864 0 .432.36.84.936.84zm5.688.768h-1.116v-8.688h1.116v3.732c.276-.516.948-.984 1.908-.984 1.752 0 2.652 1.344 2.652 3.024 0 1.716-.972 3.072-2.688 3.072-.852 0-1.512-.372-1.872-.996v.84zm3.408-2.916c0-1.248-.66-2.028-1.704-2.028-.996 0-1.716.78-1.716 2.028s.72 2.064 1.716 2.064c1.032 0 1.704-.816 1.704-2.064zm3.72 2.916h-1.116v-5.772h1.116V269zm-1.368-7.956a.81.81 0 1 1 .804.804.804.804 0 0 1-.804-.804zm4.32 4.62V269h-1.128v-5.772h1.104v.828c.42-.72 1.104-.996 1.776-.996 1.38 0 2.064.996 2.064 2.28V269h-1.128v-3.468c0-.804-.336-1.452-1.344-1.452-.888 0-1.344.708-1.344 1.584z" fill="#3C3B3F"/>
     <g transform="translate(0 256)" >
-      <rect width="19" height="19" rx="4"/>
+      <rect fill="#00416B" width="19" height="19" rx="4"/>
     </g>
   </g>
 </svg>

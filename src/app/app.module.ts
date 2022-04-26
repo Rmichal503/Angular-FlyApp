@@ -14,6 +14,8 @@ import { BoeingComponent } from './components/planes/boeing/boeing.component';
 import { AirbusComponent } from './components/planes/airbus/airbus.component';
 import { EmbraerComponent } from './components/planes/embraer/embraer.component';
 import { LoginComponent } from './components/login/login.component';
+import { WeatherOriginComponent } from './components/weather-origin/weather-origin.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -26,18 +28,20 @@ import { LoginComponent } from './components/login/login.component';
     AirbusComponent,
     EmbraerComponent,
     LoginComponent,
+    WeatherOriginComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgbModule,
-    NgbActiveModal
+    NgbModule
   ],
   // entryComponents:[
   //   MymodalComponent
   // ],
-  providers: [FlyApiService],
+  providers: [FlyApiService,
+    NgbActiveModal],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

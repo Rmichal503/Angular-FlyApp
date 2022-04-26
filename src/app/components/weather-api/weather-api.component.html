@@ -1,3 +1,10 @@
-<p>weather-api works!</p>
-<button (click)="getWeatherOrigin()">pogoda</button>
-<button (click)="getWeatherDestination()">pogoda przylotu</button>
+<div *ngIf="weather" class="conteiner-flex">
+  <!-- <span *ngFor="let cos of weather"></span> -->
+  <!-- {{weather.current.feels_like}} -->
+  <div class="row">
+    <p>Temperatura odczuwalna {{weather.current.feels_like}}
+      Temperatura {{weather.current.temp}}
+      {{weather.current.weather[0].description}}</p>
+  </div>
+  
+</div>

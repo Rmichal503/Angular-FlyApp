@@ -19,9 +19,9 @@ openSm() {
 
   ngOnInit(): void {
     this.distance = this.flyApi.destini
-    this.weatherApi.getApiDataOrigin().subscribe(data => {
-      console.log(data);
-    })
+    // this.weatherApi.getApiDataOrigin().subscribe(data => {
+    //   console.log(data);
+    // })
     switch(true){
       case this.distance < 500:
         this.typeOfPlane = 1;
