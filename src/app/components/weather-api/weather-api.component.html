@@ -4,61 +4,63 @@
   <div class="row">
     <div class="col-12">
       <a class="col-3">
-        <div ngSwitch='{{weather.current.weather[0].icon}}'>
-          <p ngSwitchCase="01d">
+        <div [ngSwitch]='weather.current.weather[0].icon'>
+          <a *ngSwitchCase="01d">
             <i class="bi bi-brightness-high"></i>
-          </p>
-          <p ngSwitchCase="02d">
+          </a>
+          <a *ngSwitchCase="02d">
             <i class="bi bi-cloud-sun"></i>
-          </p>
-          <p ngSwitchCase="03d">
+          </a>
+          <a *ngSwitchCase="03d">
             <i class="bi bi-cloudy"></i>
-          </p>
-          <p ngSwitchCase="04d">
+          </a>
+          <a *ngSwitchCase="04d">
             <i class="bi bi-clouds"></i>
-          </p>
-          <p ngSwitchCase="09d">
+          </a>
+          <a *ngSwitchCase="09d">
             <i class="bi bi-cloud-drizzle"></i>
-          </p>
-          <p ngSwitchCase="10d">
+          </a>
+          <a *ngSwitchCase="10d">
             <i class="bi bi-cloud-rain"></i>
-          </p>
-          <p ngSwitchCase="11d">
+          </a>
+          <a *ngSwitchCase="11d">
             <i class="bi bi-cloud-lightning-rain"></i>
-          </p>
-          <p ngSwitchCase="13d">
+          </a>
+          <a *ngSwitchCase="13d">
             <i class="bi bi-snow3"></i>
-          </p>
-          <p ngSwitchCase="50d">
+          </a>
+          <a *ngSwitchCase="50d">
             <i class="bi bi-cloudy-fog2"></i>
-          </p>
-          <p ngSwitchCase="01n">
+          </a>
+          <a *ngSwitchCase="01n">
             <i class="bi bi-moon"></i>
-          </p>
-          <p ngSwitchCase="02n">
+            <i i-bs name="moon"></i>
+          </a>
+          <a *ngSwitchCase="02n">
             <i class="bi bi-cloud-moon-fill"></i>
-          </p>
-          <p ngSwitchCase="03n">
+          </a>
+          <a *ngSwitchCase="03n">
             <i class="bi bi-cloudy-fill"></i>
-          </p>
-          <p ngSwitchCase="04n">
-            <i class="bi bi-clouds-fill"></i>
-          </p>
-          <p ngSwitchCase="09n">
+          </a>
+          <a *ngSwitchCase="04n">
+            <!-- <i class="bi bi-clouds-fill"></i> -->
+            <i i-bs name="clouds-fill"></i>
+          </a>
+          <a *ngSwitchCase="09n">
             <i class="bi bi-cloud-drizzle-fill"></i>
-          </p>
-          <p ngSwitchCase="10n">
+          </a>
+          <a *ngSwitchCase="10n">
             <i class="bi bi-cloud-rain-fill"></i>
-          </p>
-          <p ngSwitchCase="11n">
+          </a>
+          <a *ngSwitchCase="11n">
             <i class="bi bi-cloud-lightning-rain-fill"></i>
-          </p>
-          <p ngSwitchCase="13n">
+          </a>
+          <a *ngSwitchCase="13n">
             <i class="bi bi-snow3-fill"></i>
-          </p>
-          <p ngSwitchCase="50n">
+          </a>
+          <a *ngSwitchCase="50n">
             <i class="bi bi-cloudy-fog2-fill"></i>
-          </p>
+          </a>
         </div>
       </a>
       <p class="col-9">Temperatura odczuwalna {{weather.current.feels_like}}</p>
