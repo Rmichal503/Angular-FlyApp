@@ -1,0 +1,4 @@
+@import "../../Scss/variables";
+.nav_body{
+    background-color: map-get($flyColors, "background");
+}

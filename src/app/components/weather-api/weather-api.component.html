@@ -2,9 +2,71 @@
   <!-- <span *ngFor="let cos of weather"></span> -->
   <!-- {{weather.current.feels_like}} -->
   <div class="row">
-    <p>Temperatura odczuwalna {{weather.current.feels_like}}
+    <div class="col-12">
+      <a class="col-3">
+        <div ngSwitch='{{weather.current.weather[0].icon}}'>
+          <p ngSwitchCase="01d">
+            <i class="bi bi-brightness-high"></i>
+          </p>
+          <p ngSwitchCase="02d">
+            <i class="bi bi-cloud-sun"></i>
+          </p>
+          <p ngSwitchCase="03d">
+            <i class="bi bi-cloudy"></i>
+          </p>
+          <p ngSwitchCase="04d">
+            <i class="bi bi-clouds"></i>
+          </p>
+          <p ngSwitchCase="09d">
+            <i class="bi bi-cloud-drizzle"></i>
+          </p>
+          <p ngSwitchCase="10d">
+            <i class="bi bi-cloud-rain"></i>
+          </p>
+          <p ngSwitchCase="11d">
+            <i class="bi bi-cloud-lightning-rain"></i>
+          </p>
+          <p ngSwitchCase="13d">
+            <i class="bi bi-snow3"></i>
+          </p>
+          <p ngSwitchCase="50d">
+            <i class="bi bi-cloudy-fog2"></i>
+          </p>
+          <p ngSwitchCase="01n">
+            <i class="bi bi-moon"></i>
+          </p>
+          <p ngSwitchCase="02n">
+            <i class="bi bi-cloud-moon-fill"></i>
+          </p>
+          <p ngSwitchCase="03n">
+            <i class="bi bi-cloudy-fill"></i>
+          </p>
+          <p ngSwitchCase="04n">
+            <i class="bi bi-clouds"></i>
+          </p>
+          <p ngSwitchCase="09n">
+            <i class="bi bi-cloud-drizzle"></i>
+          </p>
+          <p ngSwitchCase="10n">
+            <i class="bi bi-cloud-rain"></i>
+          </p>
+          <p ngSwitchCase="11n">
+            <i class="bi bi-cloud-lightning-rain"></i>
+          </p>
+          <p ngSwitchCase="13n">
+            <i class="bi bi-snow3"></i>
+          </p>
+          <p ngSwitchCase="50n">
+            <i class="bi bi-cloudy-fog2"></i>
+          </p>
+        </div>
+      </a>
+      <p class="col-9">Temperatura odczuwalna {{weather.current.feels_like}}</p>
+      <p class="col-12">{{weather.current.weather[0].description}}</p>
+    </div>
+    <!-- <p>Temperatura odczuwalna {{weather.current.feels_like}}
       Temperatura {{weather.current.temp}}
-      {{weather.current.weather[0].description}}</p>
+      {{weather.current.weather[0].description}}</p> -->
   </div>
   
 </div>

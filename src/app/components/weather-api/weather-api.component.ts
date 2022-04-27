@@ -13,10 +13,12 @@ export class WeatherApiComponent implements OnInit, DoCheck {
 
   constructor(private weatherApi: WeatherApiService) { }
   weather:any
+  icoUrl:string
   ngOnInit(): void {
     this.weatherApi.geolok()
   }
   ngDoCheck(): void {
     this.weather = this.weatherApi.weatherOrigin;
+    this.icoUrl = `url(http://openweathermap.org/img/wn/${this.weather.current.weather[0].icon}@2x.png)`
   }
 }
