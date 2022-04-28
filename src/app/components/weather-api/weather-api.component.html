@@ -1,74 +1,8 @@
 <div *ngIf="weather" class="conteiner-flex">
-  <!-- <span *ngFor="let cos of weather"></span> -->
-  <!-- {{weather.current.feels_like}} -->
   <div class="row">
-    <div class="col-12">
-      <a class="col-3">
-        <div [ngSwitch]='weather.current.weather[0].icon'>
-          <a *ngSwitchCase="01d">
-            <i class="bi bi-brightness-high"></i>
-          </a>
-          <a *ngSwitchCase="02d">
-            <i class="bi bi-cloud-sun"></i>
-          </a>
-          <a *ngSwitchCase="03d">
-            <i class="bi bi-cloudy"></i>
-          </a>
-          <a *ngSwitchCase="04d">
-            <i class="bi bi-clouds"></i>
-          </a>
-          <a *ngSwitchCase="09d">
-            <i class="bi bi-cloud-drizzle"></i>
-          </a>
-          <a *ngSwitchCase="10d">
-            <i class="bi bi-cloud-rain"></i>
-          </a>
-          <a *ngSwitchCase="11d">
-            <i class="bi bi-cloud-lightning-rain"></i>
-          </a>
-          <a *ngSwitchCase="13d">
-            <i class="bi bi-snow3"></i>
-          </a>
-          <a *ngSwitchCase="50d">
-            <i class="bi bi-cloudy-fog2"></i>
-          </a>
-          <a *ngSwitchCase="01n">
-            <i class="bi bi-moon"></i>
-            <i i-bs name="moon"></i>
-          </a>
-          <a *ngSwitchCase="02n">
-            <i class="bi bi-cloud-moon-fill"></i>
-          </a>
-          <a *ngSwitchCase="03n">
-            <i class="bi bi-cloudy-fill"></i>
-          </a>
-          <a *ngSwitchCase="04n">
-            <!-- <i class="bi bi-clouds-fill"></i> -->
-            <i i-bs name="clouds-fill"></i>
-          </a>
-          <a *ngSwitchCase="09n">
-            <i class="bi bi-cloud-drizzle-fill"></i>
-          </a>
-          <a *ngSwitchCase="10n">
-            <i class="bi bi-cloud-rain-fill"></i>
-          </a>
-          <a *ngSwitchCase="11n">
-            <i class="bi bi-cloud-lightning-rain-fill"></i>
-          </a>
-          <a *ngSwitchCase="13n">
-            <i class="bi bi-snow3-fill"></i>
-          </a>
-          <a *ngSwitchCase="50n">
-            <i class="bi bi-cloudy-fog2-fill"></i>
-          </a>
-        </div>
-      </a>
-      <p class="col-9">Temperatura odczuwalna {{weather.current.feels_like}}</p>
-      <p class="col-12">{{weather.current.weather[0].description}}</p>
-    </div>
-    <!-- <p>Temperatura odczuwalna {{weather.current.feels_like}}
-      Temperatura {{weather.current.temp}}
-      {{weather.current.weather[0].description}}</p> -->
+    <p class="col-3"><i [ngClass]="icoClass"></i></p>
+    <p class="col-9 text-primary">{{weather.current.weather[0].description}}</p>
+    <p class="col-12 text-details">Temperatura odczuwalna {{weather.current.feels_like}}</p>
   </div>
-
 </div>
+

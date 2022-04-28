@@ -16,7 +16,6 @@ import { EmbraerComponent } from './components/planes/embraer/embraer.component'
 import { LoginComponent } from './components/login/login.component';
 import { WeatherOriginComponent } from './components/weather-origin/weather-origin.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
 
 @NgModule({
   declarations: [
@@ -37,10 +36,6 @@ import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
     AppRoutingModule,
     HttpClientModule,
     NgbModule,
-    NgxBootstrapIconsModule.pick(allIcons, {
-      width: '2em',
-      height: '2em',
-    })
   ],
   // entryComponents:[
   //   MymodalComponent
