@@ -1,14 +1,13 @@
-<p>modal works!</p>
 <div class="modal-header">
   <!-- <h4 class="modal-title">{{my_modal_title}}</h4> -->
-  <h4 class="modal-title">tytuł</h4>
-  <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+  <!-- <h4 class="modal-title">tytuł</h4> -->
+  <button type="button" class="btn close closeBtn btn-outline-danger" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
 <div class="modal-body">
   <!-- <p> {{my_modal_content}}</p> -->
-  content
+  Prosimy o wybranie miejsc 
   <div [ngSwitch]='typeOfPlane'>
       <app-embraer *ngSwitchCase="1"></app-embraer>
       <app-boeing *ngSwitchCase="2"></app-boeing>
@@ -16,6 +15,6 @@
   </div>
 </div>
 <div class="modal-footer">
-  <button class="btn btn-outline-primary mb-2 me-2" (click)="openSm()">Dalej</button>
-  <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
+  <button type="button" class="btn btn-outline-primary mb-2 me-2" (click)="openSm()">Dalej</button>
+  <button type="button" class="btn btn-outline-danger mb-2 me-2" (click)="activeModal.close('Close click')">Anuluj</button>
 </div>

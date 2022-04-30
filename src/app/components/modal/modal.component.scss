@@ -1,4 +1,25 @@
+@import "../../Scss/variables";
+
+.modal-body, .modal-header, .modal-footer{
+    background-color: map-get($flyColors, "background" );
+    border: 1px solid map-get($flyColors, "details" );
+    // background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+.modal-header{
+    justify-content: end;
+    // .closeBtn{
+    //     color: map-get($flyColors, "details");
+    //     background-color: map-get($flyColors, "secondary");
+    //     border-color: map-get($flyColors, "details");
+    //     &:hover{
+    //         color: map-get($flyColors, "primary");
+    //         background-color: map-get($flyColors, "background");
+    //         border-color: map-get($flyColors, "primary");
+    //     }
+    // }
+}
 .modal-body{
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: map-get($flyColors, "secondary" );
 }

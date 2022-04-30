@@ -1,4 +1,13 @@
-.bi{
-    font-size: 2rem;
-    width: 1rem;
+@import '../../Scss/variables';
+
+.weather{
+    border: 1px solid map-get($flyColors, "details");
+    background-color: map-get($flyColors, "background");
+    border-radius: 2ex;
+    .weatherIco{
+        font-size: 2rem;
+        width: 1rem;
+        color: map-get($flyColors, "primary");
+        margin:0 0.2em;
+    }
 }

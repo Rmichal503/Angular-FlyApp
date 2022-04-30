@@ -10,7 +10,7 @@ import { LoginComponent } from '../login/login.component';
 export class NavbarComponent implements OnInit {
 
   constructor(private loginModal: NgbModal) { }
-  openSm() {
+  login() {
     this.loginModal.open(LoginComponent, { size: 'sm' });
   }
   ngOnInit(): void {

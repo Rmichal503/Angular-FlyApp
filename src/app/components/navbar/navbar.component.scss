@@ -1,4 +1,23 @@
 @import "../../Scss/variables";
 .nav_body{
     background-color: map-get($flyColors, "background");
+    .nav-link{
+        border-radius: 1ex;
+            &:hover{
+            color: map-get($flyColors, "background");
+            background-color: map-get($flyColors, "primary");
+            border-color: map-get($flyColors, "details");
+            
+        }
+    }
+    .nav-linkMain, .loginBtn{
+        color: map-get($flyColors, "details");
+        background-color: map-get($flyColors, "secondary");
+        border-color: map-get($flyColors, "details");
+        &:hover{
+            color: map-get($flyColors, "primary");
+            background-color: map-get($flyColors, "background");
+            border-color: map-get($flyColors, "primary");
+        }
+    }
 }

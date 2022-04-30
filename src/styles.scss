@@ -9,5 +9,11 @@
 /* Importing Bootstrap SCSS file. */
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 @import '~bootstrap/scss/bootstrap';
-
+// @import '../node_modules/bootstrap/scss/variables';
 @import '../src/app/Scss/variables';
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+*{
+    // font-family: 'Orelega One';
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

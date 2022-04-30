@@ -14,7 +14,7 @@ export class EmbraerComponent implements AfterViewInit {
   passangersArray: string[] = []
   constructor(public flyApi: FlyApiService) { }
   svgClick(e: any) {
-    const seatNumber = e.path[0].attributes[3].value
+    const seatNumber = e.path[1].attributes[3].value
     function deleteSeat(seat: string, passSeats: Array<string>): Array<string> {
       const indexOfDeleteSeat = passSeats.indexOf(seat);
       return passSeats = passSeats.splice(indexOfDeleteSeat, 1);
@@ -50,14 +50,12 @@ export class EmbraerComponent implements AfterViewInit {
           alert("Nie możesz zaznaczyć więcej miejsc niż liczba pasażerów");
           break
         case "url(#choosen)":
-          alert("Nie możesz zaznaczyć więcej miejsc niż liczba pasażerów");
-          break
-        case "green":
-          e.path[1].attributes[1].value = "blue"
+          e.path[1].attributes[1].value = "url(#mask-2)"
           deleteSeat(seatNumber, this.passangersArray);
           --this.count
           break
       }
+      this.flyApi.passangersArray = this.passangersArray
     }
 
   }

@@ -22,7 +22,7 @@
         </select>
       </div>
       <div class="col-sm-7 col-md-3 col-lg-3 ">
-        <select name="ccy" #ccy class="form-select  ccy flySelect">
+        <select name="ccy" #ccy class="form-select ccy flySelect">
           <option value="--">Wybierz walute</option>
           <option value="PLN">Złotówki</option>
           <option value="EUR">Euro</option>
@@ -30,12 +30,13 @@
         </select>
       </div>
       <div class="col-sm-7 col-md-3 col-lg-3 ">
-        <input type="number" #pass placeholder="Liczba pasażerów" class="pass ">
+        <input type="number" #pass placeholder="Liczba pasażerów" class="pass form-control">
       </div>
     </div>
 
-    <button type="button" class="searchBtn btn btn-outline-primary"
-      (click)="dataApi(origin.value, destination.value, ccy.value, pass.value)"><svg xmlns="http://www.w3.org/2000/svg"
+    <button type="button" class="searchBtn btn-lg"
+      (click)="dataApi(origin.value, destination.value, ccy.value, pass.value)">
+      <svg xmlns="http://www.w3.org/2000/svg"
         class="btnPlane" viewBox="0 0 20 20" fill="currentColor">
         <path
           d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
@@ -44,11 +45,11 @@
   <div class="row">
     <div class="col-md-10">
       <div class="list-group tickets">
-        <a class="list-group-item ticket" *ngFor="let ticket of apiData" (click)="showTicket(ticket.value)">
-        Wylot z {{ticket.origin|flights}} do {{ticket.destination|flights}} ||
-        Data wylotu: {{ticket.depart_date|date}} <br>
-        Liczba przesiadek {{ticket.number_of_changes}} oraz czas lotu {{ticket.duration}} ||
-        Koszt przelotu: {{ticket.value|currency:ccy.value}}
+        <a class="list-group-item col-md-10 col-sm-10 ticket" *ngFor="let ticket of apiData" (click)="showTicket(ticket.value)">
+          Wylot z {{ticket.origin|flights}} do {{ticket.destination|flights}} ||
+          Data wylotu: {{ticket.depart_date|date}} <br>
+          Liczba przesiadek {{ticket.number_of_changes}} oraz czas lotu {{ticket.duration}} ||
+          Koszt przelotu: {{ticket.value|currency:ccy.value}}
         </a>
       </div>
       <!-- <button class='ticket ' *ngFor="let ticket of apiData" (click)="showTicket(ticket.value)">
@@ -56,5 +57,5 @@
         Data wylotu: {{ticket.depart_date|date}} <br>
         Liczba przesiadek {{ticket.number_of_changes}} oraz czas lotu {{ticket.duration}} ||
         Koszt przelotu: {{ticket.value|currency:ccy.value}} </button></div> -->
+    </div>
   </div>
-</div>

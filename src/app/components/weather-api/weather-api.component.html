@@ -1,8 +1,8 @@
-<div *ngIf="weather" class="conteiner-flex">
+<div *ngIf="weather" class="conteiner-flex weather border-details">
   <div class="row">
-    <p class="col-3"><i [ngClass]="icoClass"></i></p>
-    <p class="col-9 text-primary">{{weather.current.weather[0].description}}</p>
-    <p class="col-12 text-details">Temperatura odczuwalna {{weather.current.feels_like}}</p>
+    <p class="col-3 weatherIco"><i [ngClass]="icoClass"></i></p>
+    <p class="col-9 text-primary weatherDescription">{{weather.current.weather[0].description}}</p>
+    <p class="col-12 text-details weatherTemp">Temperatura odczuwalna {{weather.current.feels_like}}</p>
   </div>
 </div>
 

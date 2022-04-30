@@ -493,12 +493,12 @@
                 <g #ico_main mask="url(#mask-2)" fill="#43A9C7" data-seatNumb="F15" transform="translate(0.000000, 273.888889)" (click)="svgClick($event)"   >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
-                <g #ico_main mask="url(#mask-2)" fill="#43A9C7" data-seatNumb="D15" transform="translate(42.140845, 273.888889)" (click)="svgClick($event)"   >
+                <!-- <g #ico_main mask="url(#mask-2)" fill="#43A9C7" data-seatNumb="D15" transform="translate(42.140845, 273.888889)" (click)="svgClick($event)"   >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>
                 <g #ico_main mask="url(#mask-2)" fill="#43A9C7" data-seatNumb="E15" transform="translate(21.070423, 273.888889)" (click)="svgClick($event)"   >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
-                </g>
+                </g> -->
                 <g #ico_main mask="url(#mask-2)" fill="#43A9C7" data-seatNumb="F17" transform="translate(0.000000, 231.752137)" (click)="svgClick($event)"   >
                     <rect id="bg" x="0" y="0" width="19" height="19" rx="4"></rect>
                 </g>

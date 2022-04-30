@@ -55,6 +55,7 @@ export class BoeingComponent implements AfterViewInit {
           deleteSeat(seatNumber, this.passangersArray);
           break
       }
+      console.log(this.passangersArray)
     }
     this.flyApi.passangersArray = this.passangersArray
   }

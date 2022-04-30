@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+
 export class LoginService {
   passCheck: boolean = false;
 
@@ -13,8 +14,15 @@ export class LoginService {
     this.json.get<any>(this.url).subscribe(data => {
       console.log(login, pass);
       data.forEach((el: any) => {
-        console.log(el);
+        if (login === el.username && pass === el.password) {
+          console.log(`${login} || ${pass}`);
+          alert("logowanie przebiegło pomyślnie")
+          this.passCheck = true;
+        }
       })
+      if(this.passCheck === false){
+        alert("błędne hasło");
+      }
     })
   }
   // logIn(login: string, pass: string) {
@@ -31,6 +39,7 @@ export class LoginService {
   //       }
   //     })
   //   }
+  // "username":"Bret","password":"Terb528"
   // }
 }
 
