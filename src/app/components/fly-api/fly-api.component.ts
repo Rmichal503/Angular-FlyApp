@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModal, NgbModalOptions } from '@ng-bootstrap/ng-bootstrap';
+import { dataWeatherApi } from 'src/app/interfaces/api';
 import { FlyApiService } from 'src/app/services/fly-api.service';
 import { WeatherApiService } from 'src/app/services/weather-api.service';
 import { ModalComponent } from '../modal/modal.component';
@@ -22,11 +23,11 @@ export class FlyApiComponent implements OnInit {
   }
   public isCollapsed = true;
   apiData: any;
-  weatherDestination: any;
+  weatherDestination: dataWeatherApi;
   weatherOrigin: any;
   dataApi(origin: string, destination: string, ccy: string, passangers: string,) {
     this.weatherApi.cityDestination = destination;
-    this.flyApi.passangersCount = passangers;
+    this.flyApi.passangersCount = +passangers;
     if (origin && destination && ccy && passangers) {
       this.flyApi.getApiData(origin, destination, ccy).subscribe(flyData => {
         this.apiData = flyData.data;

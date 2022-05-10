@@ -1,12 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { dataFlyApi } from '../interfaces/api';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FlyApiService {
-  destini:any
-  passangersCount:any;
+  destini:number;
+  passangersCount:number;
   passangersArray:string[]
   ticketPrice:number;
   
@@ -31,7 +32,7 @@ export class FlyApiService {
       'x-rapidapi-host': 'travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com',
       'x-rapidapi-key': 'eb04fcb830msh14b53702b3df605p1d1a41jsnfbd01cbf92cf'
     }
-    return this.http.get<any>(this.url, { headers, params })
+    return this.http.get<dataFlyApi>(this.url, { headers, params })
   }
 }
 

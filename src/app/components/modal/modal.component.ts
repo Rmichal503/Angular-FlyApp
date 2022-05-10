@@ -10,7 +10,7 @@ import { LoginComponent } from '../login/login.component';
 })
 export class ModalComponent implements OnInit {
   constructor(public activeModal: NgbActiveModal, private flyApi: FlyApiService, public loginModal: NgbModal) { }
-  distance: any
+  distance: number
   typeOfPlane: number
   openSm() {
     this.loginModal.open(LoginComponent, { size: 'sm' });

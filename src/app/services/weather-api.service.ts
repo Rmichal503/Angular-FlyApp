@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, take } from 'rxjs';
 import { GeolocationService } from '@ng-web-apis/geolocation';
+import { dataWeatherApi } from '../interfaces/api';
 
 @Injectable({
   providedIn: 'root'
@@ -12,23 +13,23 @@ export class WeatherApiService {
 
   url: string = 'https://api.openweathermap.org/data/2.5/onecall?'
   cityDestination: any;
-  geolocation: any =[]
+  geolocation: number[] =[]
   corDep: number[] = [];
-  weatherOrigin:any;
+  weatherOrigin:dataWeatherApi;
 
   geolok() {
     this.geo.pipe(take(1)).subscribe({
       next: position => this.geolocation = [position.coords.latitude,position.coords.longitude],
       error: err => console.log(err),
       complete:()=> this.getGeoWeather(this.geolocation).subscribe(data=>{
+        console.log(data);
         return this.weatherOrigin = data;
-        // console.log(this.weatherOrigin);
         // return 
       })
     })
   }
 
-  getGeoWeather(lok:any) {
+  getGeoWeather(lok:Array<number>) {
     console.log(lok);
     const params = {
       units: 'metric',
@@ -37,37 +38,10 @@ export class WeatherApiService {
       lon: lok[1],
       appid: 'bddc87fdce5b5075859731a0bcca95b9'
     }
-    return this.http.get<any>(this.url, { params })
-  }
-  funkcja(param:any){
-    console.log(param);
+    return this.http.get<dataWeatherApi>(this.url, { params })
   }
 
-  // getApiDataOrigin(data: any): Observable<any> {
-  //   // this.geo.subscribe(position =>
-  //   //   console.log(position))
-  //   switch (this.cityOrigin) {
-  //     case "WAW":
-  //       this.cor = [52.13, 21];
-  //       break;
-  //     case "GDN":
-  //       this.cor = [54.20, 18.38];
-  //       break;
-  //     case "LUZ":
-  //       this.cor = [51.15, 22.34];
-  //       break;
-  //   }
-  //   const params = {
-  //     units: 'metric',
-  //     lang: 'pl',
-  //     lat: data.coords.latitude ? data.coords.latitude : this.cor[0],
-  //     lon: data.coords.longitude ? data.coords.longitude : this.cor[1],
-  //     appid: 'bddc87fdce5b5075859731a0bcca95b9'
-  //   }
-  //   return this.http.get<any>(this.url, { params })
-  // }
-
-  getApiDataDestination(): Observable<any> {
+  getApiDataDestination(): Observable<dataWeatherApi> {
     switch (this.cityDestination) {
       case "JFK":
         this.corDep = [40.43, -74];
@@ -98,7 +72,7 @@ export class WeatherApiService {
       lon: this.corDep[1],
       appid: 'bddc87fdce5b5075859731a0bcca95b9'
     }
-    return this.http.get<any>(this.url, { params })
+    return this.http.get<dataWeatherApi>(this.url, { params })
   }
 
 }

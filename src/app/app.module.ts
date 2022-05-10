@@ -14,7 +14,6 @@ import { BoeingComponent } from './components/planes/boeing/boeing.component';
 import { AirbusComponent } from './components/planes/airbus/airbus.component';
 import { EmbraerComponent } from './components/planes/embraer/embraer.component';
 import { LoginComponent } from './components/login/login.component';
-import { WeatherOriginComponent } from './components/weather-origin/weather-origin.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
@@ -28,7 +27,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AirbusComponent,
     EmbraerComponent,
     LoginComponent,
-    WeatherOriginComponent,
     NavbarComponent,
   ],
   imports: [

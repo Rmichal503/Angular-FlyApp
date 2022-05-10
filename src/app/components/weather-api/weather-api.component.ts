@@ -1,6 +1,5 @@
-import { AsyncPipe } from '@angular/common';
-import { core } from '@angular/compiler';
 import { Component, DoCheck, OnInit } from '@angular/core';
+import { dataWeatherApi } from 'src/app/interfaces/api';
 import { WeatherApiService } from 'src/app/services/weather-api.service';
 
 
@@ -12,7 +11,7 @@ import { WeatherApiService } from 'src/app/services/weather-api.service';
 export class WeatherApiComponent implements OnInit, DoCheck {
 
   constructor(private weatherApi: WeatherApiService) { }
-  weather: any
+  weather: dataWeatherApi
   icoUrl: string
   icoClass: string;
   ngOnInit(): void {
@@ -75,6 +74,7 @@ export class WeatherApiComponent implements OnInit, DoCheck {
         break;
       case "50n":
         this.icoClass = 'bi bi-cloudy-fog2-fill'
+        break;
     }
   }
 }
