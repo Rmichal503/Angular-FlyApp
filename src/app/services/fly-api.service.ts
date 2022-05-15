@@ -8,9 +8,9 @@ import { dataFlyApi } from '../interfaces/api';
 export class FlyApiService {
   destini:number;
   passangersCount:number;
-  passangersArray:string[]
+  passangersArray:any
   ticketPrice:number;
-  
+  passangerFlag:boolean = false;
   constructor(private http: HttpClient) { }
   url: string = 'https://travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com/v2/prices/latest'
   getApiData(origin: string, destination: string, ccy: string) {
@@ -36,8 +36,3 @@ export class FlyApiService {
   }
 }
 
-// /////////
-// const headers = { 'Authorization': 'Bearer my-token', 'My-Custom-Header': 'foobar' }
-//     this.http.get<any>('https://api.npms.io/v2/search?q=scope:angular', { headers }).subscribe(data => {
-//         this.totalAngularPackages = data.total;
-//     })

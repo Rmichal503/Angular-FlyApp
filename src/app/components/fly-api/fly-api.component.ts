@@ -19,7 +19,9 @@ export class FlyApiComponent implements OnInit {
     
   }
   options: NgbModalOptions = {
-    size: 'lg'
+    centered: true,
+    fullscreen: 'md',
+    size: 'xl',
   }
   public isCollapsed = true;
   apiData: any;
@@ -46,6 +48,10 @@ export class FlyApiComponent implements OnInit {
       next: data => this.weatherDestination = data,
       error: err => console.log(err),
     })
-    this.modalServise.open(ModalComponent, this.options)
+    this.modalServise.open(ModalComponent, {
+      centered: true,
+      fullscreen: true,
+      size: 'xl',
+    })
   }
 }

@@ -22,4 +22,25 @@
     text-align: center;
     font-size: 1.5rem;
     background-color: map-get($flyColors, "secondary" );
+    height: fit-content;
 }
+.weather{
+    border: 1px solid map-get($flyColors, "details");
+    background-color: map-get($flyColors, "background");
+    border-radius: 2ex;
+    .weatherIco{
+        font-size: 2rem;
+        width: 1rem;
+        color: map-get($flyColors, "primary");
+        margin:0 0.2em;
+    }
+}
+// @media screen and (max-width:576px){
+//     .typeOfPlane{
+//         transform: rotate(90deg) translate(0,-30px);
+//         place-self: center, center;
+//     }
+//     .modal-body{
+//         height: 400px;
+//     }
+// }

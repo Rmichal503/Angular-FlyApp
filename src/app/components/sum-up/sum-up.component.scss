@@ -1,0 +1,5 @@
+@import '../../Scss/variables';
+body{
+    background-color: map-get($flyColors, "background");
+    color: map-get($flyColors, "primary" );
+}

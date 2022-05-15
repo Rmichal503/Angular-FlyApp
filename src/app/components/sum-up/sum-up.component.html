@@ -1,0 +1,13 @@
+<p>sum-up works!</p>
+<body>
+    <div class="containter">
+        <div class="row">
+            <div class="col-8">
+                <p *ngFor="let ticket of ticketData">
+                    Siedzenie nr:{{ticket.seatNumber}} Koszt: {{ticket.price}}
+                </p>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+</body>

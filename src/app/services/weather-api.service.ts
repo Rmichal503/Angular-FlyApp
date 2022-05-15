@@ -12,10 +12,11 @@ export class WeatherApiService {
   constructor(private http: HttpClient, public geo: GeolocationService) { }
 
   url: string = 'https://api.openweathermap.org/data/2.5/onecall?'
-  cityDestination: any;
+  cityDestination: string;
   geolocation: number[] =[]
   corDep: number[] = [];
   weatherOrigin:dataWeatherApi;
+  weatherDestination:dataWeatherApi;
 
   geolok() {
     this.geo.pipe(take(1)).subscribe({
@@ -75,4 +76,5 @@ export class WeatherApiService {
     return this.http.get<dataWeatherApi>(this.url, { params })
   }
 
+  
 }

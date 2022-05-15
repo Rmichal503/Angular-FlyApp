@@ -15,6 +15,7 @@ import { AirbusComponent } from './components/planes/airbus/airbus.component';
 import { EmbraerComponent } from './components/planes/embraer/embraer.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { SumUpComponent } from './components/sum-up/sum-up.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     EmbraerComponent,
     LoginComponent,
     NavbarComponent,
+    SumUpComponent,
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,9 @@
     vertical-align: middle; 
     overflow: hidden; 
     }
-.taken{
-    fill: "red"
+.smallTool{
+    &:hover{
+        position: relative;
+        transform: scale(2.0);
+    }
 }

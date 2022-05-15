@@ -8,13 +8,26 @@
 <div class="modal-body">
   <!-- <p> {{my_modal_content}}</p> -->
   Prosimy o wybranie miejsc 
-  <div [ngSwitch]='typeOfPlane'>
+  <div class="typeOfPlane"[ngSwitch]='typeOfPlane'>
       <app-embraer *ngSwitchCase="1"></app-embraer>
       <app-boeing *ngSwitchCase="2"></app-boeing>
       <app-airbus *ngSwitchCase="3"></app-airbus>
   </div>
 </div>
 <div class="modal-footer">
-  <button type="button" class="btn btn-outline-primary mb-2 me-2" (click)="openSm()">Dalej</button>
-  <button type="button" class="btn btn-outline-danger mb-2 me-2" (click)="activeModal.close('Close click')">Anuluj</button>
+  <div class="container">
+    <div class="row">
+      <div *ngIf="weatherDestination" class="col-8">
+        <div class="row">
+          <p class="col-3 weatherIco"><i [ngClass]="icoClass"></i></p>
+          <p class="col-9 text-primary weatherDescription">{{weatherDestination.current.weather[0].description}}</p>
+          <p class="col-12 text-details weatherTemp">Temperatura odczuwalna {{weatherDestination.current.feels_like}}</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <button type="button" class="btn btn-outline-primary mb-2 me-2" (click)="openSm()">Dalej</button>
+        <button type="button" class="btn btn-outline-danger mb-2 me-2" (click)="activeModal.close('Close click')">Anuluj</button>
+      </div>
+    </div>
+  </div>
 </div>
