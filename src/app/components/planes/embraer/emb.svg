@@ -19,7 +19,7 @@
       <mask id="taken" fill="red" maskContentUnits="objectBoundingBox">
         <rect id="path2" width="20" height="19" x='0' y='0' />
       </mask>
-      <mask id="choosen" color="blue" maskContentUnits="objectBoundingBox">
+      <mask id="choosen" color="cyan" maskContentUnits="objectBoundingBox">
         <use xlink:href="#path2" ></use>
       </mask>
       <g inkscape:label="Warstwa 1" inkscape:groupmode="layer" id="layer1" transform="translate(-13.326478,-132.24766)">

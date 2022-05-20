@@ -13,6 +13,7 @@ body{
     padding: 0 0.5em;
 }
 .sumUpPrice{
+    margin: auto;
     font-size: 2em;
     background-color: map-get($flyColors, "primary" );
     color: map-get($flyColors , "background" );

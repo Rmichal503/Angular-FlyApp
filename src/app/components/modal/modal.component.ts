@@ -58,7 +58,7 @@ export class ModalComponent implements OnInit, DoCheck {
   }
 ngDoCheck(): void {
   this.icoUrl = this.weatherDestination.current.weather[0].icon
-  console.log(this.icoUrl);
+  // console.log(this.icoUrl);
   switch (this.icoUrl) {
     case "01d":
       this.icoClass = 'bi bi-brightness-high'

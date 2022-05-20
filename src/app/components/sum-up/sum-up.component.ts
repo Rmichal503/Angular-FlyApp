@@ -12,8 +12,10 @@ export class SumUpComponent implements OnInit {
   constructor(private flyApi:FlyApiService) { }
 ticketData:Array<passangerObj> = this.flyApi.passangersArray;
 currency:string = this.flyApi.currency
+departureDate:string = this.flyApi.departureDate
 sumUpPrice:number = 0
   ngOnInit(): void {
+    // console.log(this.departureDate);
     this.ticketData.forEach(el=>{
           this.sumUpPrice += +el.price
         })

@@ -54,15 +54,15 @@ export class AirbusComponent implements AfterViewInit {
               this.costOfSeat = Math.floor(price * 1.6);
               break;
           }
-          console.log(e.path[1].attributes[1].value);
-          console.log(this.costOfSeat);
-          console.log(this.seatNumber);
-          console.log(this.passangersArray);
+          // console.log(e.path[1].attributes[1].value);
+          // console.log(this.costOfSeat);
+          // console.log(this.seatNumber);
+          // console.log(this.passangersArray);
           
           passangerObj.seatNumber = this.seatNumber;
           passangerObj.price = this.costOfSeat
           passangerObj.typeOfSeat = e.path[1].attributes[1].value;
-          console.log(passangerObj);
+          // console.log(passangerObj);
           this.passangersArray.push(passangerObj)
           break
         case "url(#choosen)":
@@ -73,9 +73,9 @@ export class AirbusComponent implements AfterViewInit {
           break
       }
       //condition to pass user to next step
-      this.count === this.passangers ? this.flyApi.passangerFlag = true :
-      console.log(this.count);
-      console.log(this.passangersArray)
+      this.count === this.passangers ? this.flyApi.passangerFlag = true : null;
+      // console.log(this.count);
+      // console.log(this.passangersArray)
     } else {
       console.log(this.count);
       this.flyApi.passangerFlag = true;
@@ -93,11 +93,11 @@ export class AirbusComponent implements AfterViewInit {
           deleteSeat(this.seatNumber, this.passangersArray);
           break
       }
-      console.log(this.passangersArray)
+      // console.log(this.passangersArray)
     }
     //passing obj of passanger to flyApi service
     this.flyApi.passangersArray = this.passangersArray
-    console.log(this.flyApi.passangersArray);
+    // console.log(this.flyApi.passangersArray);
   }
 
   ngAfterViewInit() {

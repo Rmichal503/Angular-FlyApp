@@ -12,6 +12,7 @@ export class FlyApiService {
   ticketPrice:number;
   passangerFlag:boolean = false;
   currency:string;
+  departureDate:string;
   typeOfLuggage:number;
   constructor(private http: HttpClient) { }
   url: string = 'https://travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com/v2/prices/latest'

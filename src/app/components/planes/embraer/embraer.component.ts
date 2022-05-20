@@ -30,10 +30,10 @@ export class EmbraerComponent implements AfterViewInit {
       });
       return passSeats = passSeats.splice(indexOfDeleteSeat, 1);
     }
-    console.log(this.count);
-    console.log(e);
-    console.log(e.path[1].attributes[4].value) //seatnumb
-    console.log(e.path[1].attributes[2].value) //kolor
+    // console.log(this.count);
+    // console.log(e);
+    // console.log(e.path[1].attributes[4].value) //seatnumb
+    // console.log(e.path[1].attributes[2].value) //kolor
     if (this.count < this.passangers) {
       switch (e.path[1].attributes[2].value) {
         case "url(#taken)":
@@ -53,8 +53,8 @@ export class EmbraerComponent implements AfterViewInit {
               this.costOfSeat = Math.floor(price * 1.6);
               break;
           }
-          console.log(this.costOfSeat);
-          console.log(this.seatNumber);
+          // console.log(this.costOfSeat);
+          // console.log(this.seatNumber);
           passangerObj.seatNumber = this.seatNumber;
           passangerObj.price = this.costOfSeat
           this.passangersArray.push(passangerObj)
@@ -65,10 +65,10 @@ export class EmbraerComponent implements AfterViewInit {
           deleteSeat(this.seatNumber, this.passangersArray);
           break
       }
-      this.count === this.passangers ? this.flyApi.passangerFlag = true :
-      console.log(this.count);
+      this.count === this.passangers ? this.flyApi.passangerFlag = true : null;
+      // console.log(this.count);
     } else {
-      console.log(this.count);
+      // console.log(this.count);
       switch (e.path[1].attributes[2].value) {
         case "url(#taken)":
           alert('To miejsce jest juz zajete')
@@ -82,13 +82,13 @@ export class EmbraerComponent implements AfterViewInit {
           deleteSeat(this.seatNumber, this.passangersArray);
           break
       }
-      console.log(this.passangersArray)
+      // console.log(this.passangersArray)
     }
     this.flyApi.passangersArray = this.passangersArray
   }
   ngAfterViewInit() {
     this.passangers = +this.flyApi.passangersCount;
-    console.log(this.seats.toArray());
+    // console.log(this.seats.toArray());
     this.seats.forEach(el => {
       if ((Math.floor(Math.random() * (3 - 1)) + 1) === 1) {
         el.nativeElement.attributes[2].value = "url(#taken)"

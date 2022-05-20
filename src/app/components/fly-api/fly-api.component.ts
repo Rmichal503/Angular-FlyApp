@@ -33,7 +33,7 @@ export class FlyApiComponent implements OnInit {
       this.flyApi.getApiData(origin, destination, ccy).subscribe(flyData => {
         this.apiData = flyData.data;
         this.flyApi.destini = this.apiData[0].distance;
-        console.log(flyData);
+        // console.log(flyData);
       })
     } else {
       alert('Nie wszystkie opcje lotu zostały wybrane!')
@@ -41,8 +41,9 @@ export class FlyApiComponent implements OnInit {
 
 
   }
-  showTicket(price: number) {
-    this.flyApi.ticketPrice = price
+  showTicket(price: number, date:string) {
+    this.flyApi.ticketPrice = price;
+    this.flyApi.departureDate = date;
     this.weatherApi.getApiDataDestination().subscribe({
       next: data => this.weatherDestination = data,
       error: err => console.log(err),

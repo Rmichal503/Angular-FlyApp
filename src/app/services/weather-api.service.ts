@@ -23,15 +23,14 @@ export class WeatherApiService {
       next: position => this.geolocation = [position.coords.latitude,position.coords.longitude],
       error: err => console.log(err),
       complete:()=> this.getGeoWeather(this.geolocation).subscribe(data=>{
-        console.log(data);
+        // console.log(data);
         return this.weatherOrigin = data;
-        // return 
       })
     })
   }
 
   getGeoWeather(lok:Array<number>) {
-    console.log(lok);
+    // console.log(lok);
     const params = {
       units: 'metric',
       lang: 'pl',
