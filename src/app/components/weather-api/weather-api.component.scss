@@ -4,6 +4,10 @@
     border: 1px solid map-get($flyColors, "details");
     background-color: map-get($flyColors, "background");
     border-radius: 2ex;
+    // width: 60%;
+    @media screen and (max-width:576px) {
+            width: 50%;
+    }
     .weatherIco{
         font-size: 2rem;
         width: 1rem;
@@ -11,3 +15,4 @@
         margin:0 0.2em;
     }
 }
+

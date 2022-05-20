@@ -1,5 +1,21 @@
 @import '../../Scss/variables';
 body{
     background-color: map-get($flyColors, "background");
+    border: 1px solid map-get($flyColors, "details" );
     color: map-get($flyColors, "primary" );
+    padding: 1em;
+}
+.sumUpSeat{
+    background-color: map-get($flyColors, "secondary" );
+    color: map-get($flyColors , "details" );
+    border: 2px solid map-get($flyColors, "primary" );
+    border-radius: 2ex;
+    padding: 0 0.5em;
+}
+.sumUpPrice{
+    font-size: 2em;
+    background-color: map-get($flyColors, "primary" );
+    color: map-get($flyColors , "background" );
+    border: 2px solid map-get($flyColors, "primary" );
+    border-radius: 2ex;
 }

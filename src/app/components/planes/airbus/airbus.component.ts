@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, QueryList, ViewChildren } from '@angular/core';
-import { passObj } from 'src/app/interfaces/login';
+import { passangerObj } from 'src/app/interfaces/api';
 import { FlyApiService } from 'src/app/services/fly-api.service';
 
 @Component({
@@ -12,7 +12,8 @@ export class AirbusComponent implements AfterViewInit {
   nativeElement: any;
   passangers: number;
   count: number = 0;
-  passangersArray: any = []
+  passangersArray:Array<passangerObj> =[];
+  passangerObj:passangerObj;
 
   costOfSeat: number;
   seatNumber: string;
@@ -20,21 +21,19 @@ export class AirbusComponent implements AfterViewInit {
   svgClick(e: any) {
     let passangerObj = {
       seatNumber: '',
-      price: 0
+      price: 0,
+      typeOfSeat: ''
     };
     this.seatNumber = e.path[1].attributes[4].value;
     const price = this.flyApi.ticketPrice;
-    function deleteSeat(seat: string, passSeats: any): any {
+    //function to deleteSeats from passangerObj
+    function deleteSeat(seat: string, passSeats: Array<passangerObj>): Array<passangerObj> {
       const indexOfDeleteSeat = passSeats.findIndex((obj: { seatNumber: string, price: number }) => {
         return obj.seatNumber === seat;
       });
       return passSeats = passSeats.splice(indexOfDeleteSeat, 1);
     }
-    console.log(this.count);
-    console.log(e);
-    console.log(e.path[1].attributes[4].value) //DataNumb
-    console.log(e.path[1].attributes[2].value) //mask
-    console.log(this.seatNumber);
+    //checking if user choose exact number of seats
     if (this.count < this.passangers) {
       switch (e.path[1].attributes[2].value) {
         case "url(#taken)":
@@ -43,6 +42,7 @@ export class AirbusComponent implements AfterViewInit {
         case "url(#mask-2)":
           e.path[1].attributes[2].value = "url(#choosen)"
           this.count++
+          //checking type of choosen seat
           switch (e.path[1].attributes[1].value) {
             case "main":
               this.costOfSeat = price;
@@ -54,10 +54,15 @@ export class AirbusComponent implements AfterViewInit {
               this.costOfSeat = Math.floor(price * 1.6);
               break;
           }
+          console.log(e.path[1].attributes[1].value);
           console.log(this.costOfSeat);
           console.log(this.seatNumber);
+          console.log(this.passangersArray);
+          
           passangerObj.seatNumber = this.seatNumber;
           passangerObj.price = this.costOfSeat
+          passangerObj.typeOfSeat = e.path[1].attributes[1].value;
+          console.log(passangerObj);
           this.passangersArray.push(passangerObj)
           break
         case "url(#choosen)":
@@ -67,9 +72,8 @@ export class AirbusComponent implements AfterViewInit {
           deleteSeat(this.seatNumber, this.passangersArray);
           break
       }
-      if (this.count === this.passangers) {
-        this.flyApi.passangerFlag = true;
-      }
+      //condition to pass user to next step
+      this.count === this.passangers ? this.flyApi.passangerFlag = true :
       console.log(this.count);
       console.log(this.passangersArray)
     } else {
@@ -91,21 +95,18 @@ export class AirbusComponent implements AfterViewInit {
       }
       console.log(this.passangersArray)
     }
+    //passing obj of passanger to flyApi service
     this.flyApi.passangersArray = this.passangersArray
     console.log(this.flyApi.passangersArray);
   }
 
   ngAfterViewInit() {
-    const mediaQuerry = window.matchMedia('(max-width:576px)')
+    // const mediaQuerry = window.matchMedia('(max-width:576px)')
     this.passangers = +this.flyApi.passangersCount;
-    // console.log(this.seats.toArray());
     this.seats.forEach(el => {
-      // if(mediaQuerry){
-      //   el.nativeElement.classList.add("smallTool")
-      // }
+      //randomly generating "taken" seats
       if ((Math.floor(Math.random() * (3 - 1)) + 1) === 1) {
         el.nativeElement.attributes[2].value = "url(#taken)"
-        // el.nativeElement.classList.remove("smallTool");
       }
     })
   }

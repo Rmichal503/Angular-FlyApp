@@ -24,7 +24,7 @@
     background-color: map-get($flyColors, "secondary" );
     height: fit-content;
 }
-.weather{
+.weather, .luggage{
     border: 1px solid map-get($flyColors, "details");
     background-color: map-get($flyColors, "background");
     border-radius: 2ex;
@@ -35,6 +35,11 @@
         margin:0 0.2em;
     }
 }
+.buttons{
+    text-align: end;
+}
+
+
 // @media screen and (max-width:576px){
 //     .typeOfPlane{
 //         transform: rotate(90deg) translate(0,-30px);

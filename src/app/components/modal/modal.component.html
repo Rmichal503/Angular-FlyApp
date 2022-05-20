@@ -1,32 +1,47 @@
 <div class="modal-header">
   <!-- <h4 class="modal-title">{{my_modal_title}}</h4> -->
   <!-- <h4 class="modal-title">tytuł</h4> -->
-  <button type="button" class="btn close closeBtn btn-outline-danger" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+  <button type="button" class="btn close closeBtn btn-outline-danger" aria-label="Close"
+    (click)="activeModal.dismiss('Cross click')">
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
 <div class="modal-body">
   <!-- <p> {{my_modal_content}}</p> -->
-  Prosimy o wybranie miejsc 
-  <div class="typeOfPlane"[ngSwitch]='typeOfPlane'>
-      <app-embraer *ngSwitchCase="1"></app-embraer>
-      <app-boeing *ngSwitchCase="2"></app-boeing>
-      <app-airbus *ngSwitchCase="3"></app-airbus>
+  Prosimy o wybranie miejsc
+  <div class="typeOfPlane" [ngSwitch]='typeOfPlane'>
+    <app-embraer *ngSwitchCase="1"></app-embraer>
+    <app-boeing *ngSwitchCase="2"></app-boeing>
+    <app-airbus *ngSwitchCase="3"></app-airbus>
   </div>
 </div>
 <div class="modal-footer">
   <div class="container">
     <div class="row">
-      <div *ngIf="weatherDestination" class="col-8">
+      <div *ngIf="weatherDestination" class="col-7 weather">
         <div class="row">
           <p class="col-3 weatherIco"><i [ngClass]="icoClass"></i></p>
           <p class="col-9 text-primary weatherDescription">{{weatherDestination.current.weather[0].description}}</p>
-          <p class="col-12 text-details weatherTemp">Temperatura odczuwalna {{weatherDestination.current.feels_like}}</p>
+          <p class="col-12 text-details weatherTemp">Temperatura odczuwalna
+            {{weatherDestination.current.feels_like}}&#8451;</p>
         </div>
       </div>
-      <div class="col-4">
-        <button type="button" class="btn btn-outline-primary mb-2 me-2" (click)="openSm()">Dalej</button>
-        <button type="button" class="btn btn-outline-danger mb-2 me-2" (click)="activeModal.close('Close click')">Anuluj</button>
+      <div class="col-5 buttons">
+        <select name="luggage" #luggage class="form-select luggage">
+          <option value="--">Rodzaj bagażu</option>
+          <option value="small">Podręczny</option>
+          <option value="medium">Średni (do 10kg)</option>
+          <option value="big">Duży (do 30kg)</option>
+        </select>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-3 offset-9">
+        <button type="button" class="btn btn-outline-primary mb-2 me-2"
+          (click)="openSm(luggage.value)">Dalej</button>
+        <button type="button" class="btn btn-outline-danger mb-2 me-2"
+          (click)="activeModal.close('Close click')">Anuluj</button>
       </div>
     </div>
   </div>

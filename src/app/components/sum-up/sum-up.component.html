@@ -1,13 +1,15 @@
-<p>sum-up works!</p>
 <body>
     <div class="containter">
         <div class="row">
-            <div class="col-8">
-                <p *ngFor="let ticket of ticketData">
-                    Siedzenie nr:{{ticket.seatNumber}} Koszt: {{ticket.price}}
+            <div class="col-7">
+                <p *ngFor="let ticket of ticketData" class="sumUpSeat">
+                    Siedzenie nr:{{ticket.seatNumber}} {{ticket.typeOfSeat|typeOfSeats}} <br>
+                    Koszt miejsca: {{ticket.price|currency:currency}}
                 </p>
             </div>
-            <div class="col-4"></div>
+            <div class="col-5 sumUpPrice">
+                Łączny do zapłaty za przelot: {{sumUpPrice|currency:currency}}
+            </div>
         </div>
     </div>
 </body>

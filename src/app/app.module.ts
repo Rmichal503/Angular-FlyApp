@@ -16,6 +16,7 @@ import { EmbraerComponent } from './components/planes/embraer/embraer.component'
 import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SumUpComponent } from './components/sum-up/sum-up.component';
+import { TypeOfSeatsPipe} from './pipes/type-of-seats.pipe';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { SumUpComponent } from './components/sum-up/sum-up.component';
     LoginComponent,
     NavbarComponent,
     SumUpComponent,
+    TypeOfSeatsPipe,
   ],
   imports: [
     BrowserModule,

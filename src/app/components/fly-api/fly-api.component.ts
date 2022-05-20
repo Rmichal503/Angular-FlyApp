@@ -20,16 +20,15 @@ export class FlyApiComponent implements OnInit {
   }
   options: NgbModalOptions = {
     centered: true,
-    fullscreen: 'md',
+    // fullscreen: 'lg',
     size: 'xl',
   }
-  public isCollapsed = true;
   apiData: any;
   weatherDestination: dataWeatherApi;
-  weatherOrigin: any;
   dataApi(origin: string, destination: string, ccy: string, passangers: string,) {
     this.weatherApi.cityDestination = destination;
     this.flyApi.passangersCount = +passangers;
+    this.flyApi.currency = ccy;
     if (origin && destination && ccy && passangers) {
       this.flyApi.getApiData(origin, destination, ccy).subscribe(flyData => {
         this.apiData = flyData.data;
@@ -48,10 +47,6 @@ export class FlyApiComponent implements OnInit {
       next: data => this.weatherDestination = data,
       error: err => console.log(err),
     })
-    this.modalServise.open(ModalComponent, {
-      centered: true,
-      fullscreen: true,
-      size: 'xl',
-    })
+    this.modalServise.open(ModalComponent, this.options)
   }
 }

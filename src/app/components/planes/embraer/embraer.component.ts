@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, QueryList, ViewChildren } from '@angular/core';
+import { passangerObj } from 'src/app/interfaces/api';
 import { FlyApiService } from 'src/app/services/fly-api.service';
 
 @Component({
@@ -12,17 +13,18 @@ export class EmbraerComponent implements AfterViewInit {
   passangers: number;
   count: number = 0;
   seatNumber: string;
-  passangersArray: any = []
+  passangersArray:Array<passangerObj> = []
   costOfSeat: number;
   constructor(public flyApi: FlyApiService) { }
   svgClick(e: any) {
     let passangerObj = {
       seatNumber: '',
-      price: 0
+      price: 0,
+      typeOfSeat:''
     }
     this.seatNumber = e.path[1].attributes[4].value
     const price = this.flyApi.ticketPrice;
-    function deleteSeat(seat: string, passSeats: any): any {
+    function deleteSeat(seat: string, passSeats: Array<passangerObj>): Array<passangerObj> {
       const indexOfDeleteSeat = passSeats.findIndex((obj: { seatNumber: string, price: number }) => {
         return obj.seatNumber === seat;
       });
@@ -63,6 +65,7 @@ export class EmbraerComponent implements AfterViewInit {
           deleteSeat(this.seatNumber, this.passangersArray);
           break
       }
+      this.count === this.passangers ? this.flyApi.passangerFlag = true :
       console.log(this.count);
     } else {
       console.log(this.count);

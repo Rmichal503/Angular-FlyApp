@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit {
     this.mongo.check(login, pass)
     setTimeout(() => {
       if (this.mongo.passCheck) {
-        this.sumUp.open(SumUpComponent, { size: "md" })
+        this.sumUp.open(SumUpComponent, { size: "md", centered:true })
         this.modal.close()
       }
     }, 1000);

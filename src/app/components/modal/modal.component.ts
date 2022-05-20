@@ -17,11 +17,22 @@ export class ModalComponent implements OnInit, DoCheck {
   weatherDestination:dataWeatherApi;
   icoClass:string;
   icoUrl:string;
-  openSm() {
-    if(this.flyApi.passangerFlag){
-      this.loginModal.open(LoginComponent, { size: 'sm' });
+  openSm(luggage:string) {
+    if(this.flyApi.passangerFlag && luggage !== '--'){
+      switch(luggage){
+        case "small":
+          this.flyApi.typeOfLuggage = 1;
+          break
+        case "medium":
+          this.flyApi.typeOfLuggage = 1.08
+          break
+        case "big":
+          this.flyApi.typeOfLuggage = 1.11;
+          break
+      }
+      this.loginModal.open(LoginComponent, { size: 'sm',centered:true});
     }else{
-      alert("Nie wszystkie miejsca zostały wybrane!")
+      alert("Nie wszystkie miejsca lub rodzaj bagażu zostały wybrane!")
     }
   }
 

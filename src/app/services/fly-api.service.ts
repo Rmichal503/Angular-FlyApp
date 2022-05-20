@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { dataFlyApi } from '../interfaces/api';
+import { dataFlyApi, passangerObj } from '../interfaces/api';
 
 @Injectable({
   providedIn: 'root'
@@ -8,9 +8,11 @@ import { dataFlyApi } from '../interfaces/api';
 export class FlyApiService {
   destini:number;
   passangersCount:number;
-  passangersArray:any
+  passangersArray:Array<passangerObj>;
   ticketPrice:number;
   passangerFlag:boolean = false;
+  currency:string;
+  typeOfLuggage:number;
   constructor(private http: HttpClient) { }
   url: string = 'https://travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com/v2/prices/latest'
   getApiData(origin: string, destination: string, ccy: string) {

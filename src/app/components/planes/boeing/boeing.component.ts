@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, QueryList, ViewChildren } from '@angular/core';
+import { passangerObj } from 'src/app/interfaces/api';
 import { FlyApiService } from 'src/app/services/fly-api.service';
 
 @Component({
@@ -12,16 +13,17 @@ export class BoeingComponent implements AfterViewInit {
   passangers: number;
   count: number = 0;
   seatNumber: string;
-  passangersArray: any = []
+  passangersArray: Array<passangerObj> = []
   costOfSeat:number;
   constructor(public flyApi: FlyApiService) { }
   svgClick(e: any) {
     let passangerObj = {
       seatNumber:'', 
-      price:0}
+      price:0,
+      typeOfSeat:''}
     this.seatNumber = e.path[1].attributes[4].value
     const price = this.flyApi.ticketPrice;
-    function deleteSeat(seat: string, passSeats: any): any {
+    function deleteSeat(seat: string, passSeats: Array<passangerObj>): Array<passangerObj> {
       const indexOfDeleteSeat = passSeats.findIndex((obj: { seatNumber: string, price:number })=>{
         return obj.seatNumber === seat;
       });
@@ -54,6 +56,7 @@ export class BoeingComponent implements AfterViewInit {
           console.log(this.seatNumber);
           passangerObj.seatNumber = this.seatNumber;
           passangerObj.price = this.costOfSeat
+          passangerObj.typeOfSeat = e.path[1].attributes[1].value;
           this.passangersArray.push(passangerObj)
           break
         case "url(#choosen)":
@@ -62,6 +65,7 @@ export class BoeingComponent implements AfterViewInit {
           deleteSeat(this.seatNumber, this.passangersArray);
           break
       }
+      this.count === this.passangers ? this.flyApi.passangerFlag = true :
       console.log(this.count);
     } else {
       console.log(this.count);

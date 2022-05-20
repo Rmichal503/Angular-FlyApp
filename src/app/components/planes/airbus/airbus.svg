@@ -13,7 +13,7 @@
     </mask>
     <mask id="choosen" fill="black">
       <use xlink:href="#path-1"></use>
-      <circle cx="9.5" cy="9.5" r="7" style="stroke:none; fill: #ffffff"/>
+      <circle cx="7.64" cy="7.64" r="6" style="stroke:none; fill: #ffffff"/>
     </mask>
     <g transform="rotate(-90 110.735 109.875)" fill="#F5F5F5">
       <ellipse transform="rotate(90 77.979 769.3)" cx="77.979" cy="769.3" rx="22.706" ry="57.567"/>

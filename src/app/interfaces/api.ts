@@ -123,6 +123,14 @@ const dataFly =
     "currency": "eur",
     "error": ""
 }
+const passangerObj = {
+    seatNumber: '',
+    price: 0,
+    typeOfSeat: ''
+}
 
 export type dataWeatherApi = typeof dataWeather
 export type dataFlyApi = typeof dataFly
+export type passangerObj = typeof passangerObj
+
+
