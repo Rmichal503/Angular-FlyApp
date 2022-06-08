@@ -45,7 +45,7 @@ const onListening = () => {
   debug("Listening on " + bind);
 };
 
-app.use(express.static(__dirname+"/dist"))
+app.use(express.static(__dirname+"/dist/my-app"))
 
 app.get('/', (req,res,next)=>{
   res.sendFile(path.join(__dirname+'./dist/index.html'))
