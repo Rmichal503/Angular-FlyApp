@@ -7,6 +7,9 @@ const jwt = require('jsonwebtoken')
 const User = require('./model/User')
 
 const app = express();
+
+app.use(express.static(__dirname, '../dist/my-app'))
+
 mongoose.connect('mongodb+srv://Admin:UwWktAEkH7LMzMUs@testcluster.jab49.mongodb.net/?retryWrites=true&w=majority').then(()=>{
     console.log('connected to database');
 }).catch((error)=>{

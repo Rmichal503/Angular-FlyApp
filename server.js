@@ -1,6 +1,8 @@
 const app = require("./backend/app");
 const debug = require("debug")("node-angular");
 const http = require("http");
+const express = require("express");
+const path = require("path");
 
 const normalizePort = val => {
   var port = parseInt(val, 10);
@@ -42,6 +44,12 @@ const onListening = () => {
   const bind = typeof port === "string" ? "pipe " + port : "port " + port;
   debug("Listening on " + bind);
 };
+
+app.use(express.static(__dirname+"/dist"))
+
+app.get('/', (req,res,next)=>{
+  res.sendFile(path.join(__dirname+'./dist/index.html'))
+})
 
 const port = normalizePort(process.env.PORT || "3000");
 app.set("port", port);
