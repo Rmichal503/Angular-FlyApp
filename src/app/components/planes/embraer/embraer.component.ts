@@ -57,6 +57,7 @@ export class EmbraerComponent implements AfterViewInit {
           // console.log(this.seatNumber);
           passangerObj.seatNumber = this.seatNumber;
           passangerObj.price = this.costOfSeat
+          passangerObj.typeOfSeat = e.path[1].attributes[1].value;
           this.passangersArray.push(passangerObj)
           break
         case "url(#choosen)":

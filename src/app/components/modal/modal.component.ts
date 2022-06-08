@@ -2,8 +2,10 @@ import { Component, DoCheck, OnInit } from '@angular/core';
 import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { dataWeatherApi } from 'src/app/interfaces/api';
 import { FlyApiService } from 'src/app/services/fly-api.service';
+import { LoginService } from 'src/app/services/login.service';
 import { WeatherApiService } from 'src/app/services/weather-api.service';
 import { LoginComponent } from '../login/login.component';
+import { SumUpComponent } from '../sum-up/sum-up.component';
 
 @Component({
   selector: 'app-modal',
@@ -11,7 +13,12 @@ import { LoginComponent } from '../login/login.component';
   styleUrls: ['./modal.component.scss']
 })
 export class ModalComponent implements OnInit, DoCheck {
-  constructor(public activeModal: NgbActiveModal, private flyApi: FlyApiService, public loginModal: NgbModal, private weatherApi: WeatherApiService) { }
+  constructor(
+    public activeModal: NgbActiveModal, 
+    private flyApi: FlyApiService, 
+    public loginModal: NgbModal, 
+    private weatherApi: WeatherApiService,
+    private loginService: LoginService) { }
   distance: number;
   typeOfPlane: number;
   weatherDestination:dataWeatherApi;
@@ -29,6 +36,10 @@ export class ModalComponent implements OnInit, DoCheck {
         case "big":
           this.flyApi.typeOfLuggage = 1.11;
           break
+      }
+      if(this.loginService.token){
+        this.loginModal.open(SumUpComponent, { size: 'md',centered:true});
+        return
       }
       this.loginModal.open(LoginComponent, { size: 'sm',centered:true});
     }else{

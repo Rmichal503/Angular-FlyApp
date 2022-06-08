@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-7">
                 <p *ngFor="let ticket of ticketData" class="sumUpSeat">
-                    Siedzenie nr:{{ticket.seatNumber}} {{ticket.typeOfSeat|typeOfSeats}} <br>
+                    Siedzenie nr:{{ticket.seatNumber}} {{ticket.typeOfSeat| typeOfSeats}} <br>
                     Koszt miejsca: {{ticket.price|currency:currency}}
                 </p>
                 <p>Data wylotu: {{departureDate|date}} </p>

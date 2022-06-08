@@ -128,9 +128,14 @@ const passangerObj = {
     price: 0,
     typeOfSeat: ''
 }
+const authData = {
+    user: '',
+    password: ''
+}
 
 export type dataWeatherApi = typeof dataWeather
 export type dataFlyApi = typeof dataFly
 export type passangerObj = typeof passangerObj
+export type authData = typeof authData
 
 
