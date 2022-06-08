@@ -22,7 +22,7 @@ export class LoginService {
 
   login(userName:string, password:string){
     const authData: authData = {user: userName, password:password};
-    this.http.post<{token:string}>('http://localhost:3000/api/user/login', authData).subscribe(response=>{
+    this.http.post<{token:string}>('https://angular-node-fly.herokuapp.com/api/user/login', authData).subscribe(response=>{
       console.log(response);
       this.token = response.token;
       this.passCheck = true;
