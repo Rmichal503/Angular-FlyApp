@@ -19,7 +19,7 @@ export class WeatherApiComponent implements OnInit, DoCheck {
   }
   ngDoCheck(): void {
     this.weather = this.weatherApi.weatherOrigin;
-    this.icoUrl = this.weatherApi.weatherOrigin.current?.weather[0].icon
+    this.icoUrl = this.weatherApi.weatherOrigin?.current.weather[0].icon
     switch (this.icoUrl) {
       case "01d":
         this.icoClass = 'bi bi-brightness-high'
