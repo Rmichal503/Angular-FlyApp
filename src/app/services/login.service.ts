@@ -4,29 +4,35 @@ import { authData } from '../interfaces/api';
 import { Login } from '../interfaces/login';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-
 export class LoginService {
   passCheck: boolean = false;
   token: string;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
-  createUser(userName:string, password:string){
-    const authData: authData = {user: userName, password:password};
-    this.http.post('http://localhost:3000/api/user/signup', authData).subscribe(response=>{
-      console.log(response);
-    })
+  createUser(userName: string, password: string) {
+    const authData: authData = { user: userName, password: password };
+    this.http
+      .post('https://angular-node-fly.herokuapp.com/api/user/signup', authData)
+      .subscribe((response) => {
+        console.log(response);
+      });
   }
 
-  login(userName:string, password:string){
-    const authData: authData = {user: userName, password:password};
-    this.http.post<{token:string}>('https://angular-node-fly.herokuapp.com/api/user/login', authData).subscribe(response=>{
-      console.log(response);
-      this.token = response.token;
-      this.passCheck = true;
-    })
+  login(userName: string, password: string) {
+    const authData: authData = { user: userName, password: password };
+    this.http
+      .post<{ token: string }>(
+        'https://angular-node-fly.herokuapp.com/api/user/login',
+        authData
+      )
+      .subscribe((response) => {
+        console.log(response);
+        this.token = response.token;
+        this.passCheck = true;
+      });
   }
 
   // url: string = 'https://mocki.io/v1/bf2098bb-1a4e-4772-9307-b5f60d0035ba'
@@ -47,6 +53,3 @@ export class LoginService {
   //   })
   // }
 }
-
-
-
