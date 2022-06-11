@@ -7,7 +7,7 @@
       <li><a href="#" class="nav-link px-2 ">O nas</a></li>
     </ul>
 
-    <div class="text-end">
+    <div class="text-end" *ngIf="!token">
       <button type="button" (click)="login()"class="loginBtn btn btn-outline-primary me-2 text-primary align-self-sm-end">Login</button>
     </div>
 </body>
