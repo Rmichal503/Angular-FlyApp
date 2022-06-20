@@ -1,5 +1,5 @@
 @import '../../Scss/variables';
-body{
+.sumUpBody{
     background-color: map-get($flyColors, "background");
     border: 1px solid map-get($flyColors, "details" );
     color: map-get($flyColors, "primary" );

@@ -15,9 +15,18 @@ export class NavbarComponent implements DoCheck {
   login() {
     this.loginModal.open(LoginComponent, { size: 'sm' });
   }
-  token:string;
+  logout(){
+    if(confirm('Czy napewno chcesz się wylogować')){
+      this.mongo.isLogin = false;
+      this.mongo.passCheck=false;
+      this.mongo.token='';
+    }
+  }
+  loged:boolean;
+  
   ngDoCheck(): void {
-    this.token = this.mongo.token
+    console.log(this.loged)
+    this.loged = this.mongo.isLogin
   }
 
 }

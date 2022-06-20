@@ -9,6 +9,7 @@ import { Login } from '../interfaces/login';
 export class LoginService {
   passCheck: boolean = false;
   token: string;
+  isLogin:boolean;
 
   constructor(private http: HttpClient) {}
 
@@ -32,6 +33,7 @@ export class LoginService {
         console.log(response);
         this.token = response.token;
         this.passCheck = true;
+        this.isLogin = true;
       });
   }
 
