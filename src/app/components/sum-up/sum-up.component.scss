@@ -1,22 +1,29 @@
 @import '../../Scss/variables';
 .sumUpBody{
+    position: relative;
     background-color: map-get($flyColors, "background");
     border: 1px solid map-get($flyColors, "details" );
     color: map-get($flyColors, "primary" );
     padding: 1em;
 }
 .sumUpSeat{
+    position: absolute;
     background-color: map-get($flyColors, "secondary" );
     color: map-get($flyColors , "details" );
     border: 2px solid map-get($flyColors, "primary" );
     border-radius: 2ex;
     padding: 0 0.5em;
+    width: 60%;
+    max-height: 25%;
 }
 .sumUpPrice{
+    position: absolute;
     margin: auto;
-    font-size: 2em;
+    font-size: 1.5em;
     background-color: map-get($flyColors, "primary" );
     color: map-get($flyColors , "background" );
     border: 2px solid map-get($flyColors, "primary" );
     border-radius: 2ex;
+    width: 40%;
+    
 }

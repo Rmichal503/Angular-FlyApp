@@ -5,7 +5,7 @@
                     Siedzenie nr:{{ticket.seatNumber}} {{ticket.typeOfSeat| typeOfSeats}} <br>
                     Koszt miejsca: {{ticket.price|currency:currency}}
                 </p>
-                <p>Data wylotu: {{departureDate|date: 'pl-PL'}} </p>
+                <p>Data wylotu: {{departureDate|date: 'longDate'}} </p>
             </div>
             <div class="col-5 sumUpPrice">
                 Łącznie do zapłaty za przelot: {{sumUpPrice|currency:currency}}
