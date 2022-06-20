@@ -13,7 +13,7 @@
         <option value="-">Miejsce docelowe</option>
         <option value="JFK">Nowy Jork</option>
         <option value="CDG">Paryż</option>
-        <option value="CPT">Cape Town</option>
+        <option value="CPT">Kapsztad</option>
         <option value="BER">Berlin</option>
         <option value="TRN">Turyn</option>
         <option value="LAX">Los Angeles</option>
@@ -46,7 +46,7 @@
         <a class="list-group-item col-md-10 col-sm-10 ticket" *ngFor="let ticket of apiData"
           (click)="showTicket(ticket.value, ticket.depart_date)">
           Wylot z {{ticket.origin|flights}} do {{ticket.destination|flights}}
-          Data wylotu: {{ticket.depart_date|date}} <br>
+          Data wylotu: {{ticket.depart_date|date:'longDate'}} <br>
           Liczba przesiadek {{ticket.number_of_changes}}
           Koszt przelotu: {{ticket.value|currency:ccy.value}}
         </a>

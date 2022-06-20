@@ -20,9 +20,9 @@
     <div class="row">
       <div *ngIf="weatherDestination" class="col-7 weather">
         <div class="row">
-          <p class="col-3 weatherIco"><i [ngClass]="icoClass"></i></p>
-          <p class="col-9 text-primary weatherDescription">{{weatherDestination.current.weather[0].description}}</p>
-          <p class="col-12 text-details weatherTemp">Temperatura odczuwalna
+          <p class="col-md-3 weatherIco"><i [ngClass]="icoClass"></i></p>
+          <p class="col-md-6 offset-3 text-primary weatherDescription">{{weatherDestination.current.weather[0].description}}</p>
+          <p class="col-md-12 text-details weatherTemp">Temperatura odczuwalna
             {{weatherDestination.current.feels_like}}&#8451;</p>
         </div>
       </div>
