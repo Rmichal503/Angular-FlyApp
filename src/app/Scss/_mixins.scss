@@ -1,0 +1,19 @@
+@import './variables';
+
+@mixin navbarCard {
+    position: absolute;
+    background-color: map-get($flyColors, "background" );
+    border: 1px solid map-get($flyColors, "details" );
+    width: 60%;
+    border-radius: 2ex;
+    padding: 1.5em;
+    top:50%;
+    right:50%;
+    transform: translate(50%,-50%);
+    max-height: 80vh;
+    overflow: auto;
+    @media screen and (max-width: 768px) {
+        top:55%;
+        width: 80%;
+    }
+}

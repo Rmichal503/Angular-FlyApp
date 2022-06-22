@@ -1,16 +1,17 @@
 <div class="nav_body d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-      <li><a href="#" class="nav-link px-2  nav-linkMain">Home</a></li>
-      <li><a href="#" class="nav-link px-2 ">Features</a></li>
-      <li><a href="#" class="nav-link px-2 ">Cennik</a></li>
-      <li><a href="#" class="nav-link px-2 ">FAQ</a></li>
-      <li><a href="#" class="nav-link px-2 ">O nas</a></li>
+    <ul class="nav col-9 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+      <li><a routerLink="" class="nav-link px-2  nav-linkMain">Home</a></li>
+      <li><a routerLink="/features" class="nav-link px-2 ">Features</a></li>
+      <li><a routerLink="/faq" class="nav-link px-2 ">FAQ</a></li>
+      <li><a routerLink="/about" class="nav-link px-2 ">O nas</a></li>
     </ul>
 
-    <div class="text-end" *ngIf="!loged">
-      <button type="button" (click)="login()"class="loginBtn btn btn-outline-primary me-2 text-primary align-self-sm-end">Login</button>
+    <div class="col-3">
+      <div class="text-end" *ngIf="!loged">
+        <button type="button" (click)="login()"class="btn btn-outline-primary me-2 text-primary">Login</button>
+      </div>
+      <div class="text-end" *ngIf="loged">
+        <button type="button" (click)="logout() "class="btn btn-outline-primary me-2 text-danger">Logout</button>
     </div>
-    <div class="text-end" *ngIf="loged">
-      <button type="button" (click)="logout() "class="loginBtn btn btn-outline-primary me-2 text-danger align-self-sm-end">Logout</button>
-    </div>
+</div>
 </div>

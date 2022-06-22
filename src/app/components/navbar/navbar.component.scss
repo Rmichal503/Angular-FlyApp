@@ -10,7 +10,7 @@
             
         }
     }
-    .nav-linkMain, .loginBtn{
+    .nav-linkMain, .btn{
         color: map-get($flyColors, "details");
         background-color: map-get($flyColors, "secondary");
         border-color: map-get($flyColors, "details");
@@ -21,3 +21,22 @@
         }
     }
 }
+
+// <div class="nav_body d-flex align-items-center justify-content-between">
+//     <div class="row">
+//       <ul class="nav col-10 me-lg-auto mb-2 justify-content-center mb-md-0">
+//         <li><a routerLink="" class="nav-link px-2  nav-linkMain">Home</a></li>
+//         <li><a routerLink="/features" class="nav-link px-2 ">Features</a></li>
+//         <li><a routerLink="/faq" class="nav-link px-2 ">FAQ</a></li>
+//         <li><a routerLink="/about" class="nav-link px-2 ">O nas</a></li>
+//       </ul>
+//       <div class="col-2 ">
+//         <div class="text-end" *ngIf="!loged">
+//           <button type="button" (click)="login()"class="btn btn-outline-primary me-2 text-primary">Login</button>
+//         </div>
+//         <div class="text-end" *ngIf="loged">
+//           <button type="button" (click)="logout() "class="btn btn-outline-primary me-2 text-danger">Logout</button>
+//         </div>
+//       </div>
+//     </div>
+// </div>

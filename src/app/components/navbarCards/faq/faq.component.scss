@@ -1,0 +1,8 @@
+@import "../../../Scss/variables";
+@import '../../../Scss/mixins';
+.faq{
+@include navbarCard;
+}
+.text{
+    color: map-get($flyColors, "detailsDark" );
+}

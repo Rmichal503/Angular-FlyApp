@@ -20,6 +20,9 @@ import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SumUpComponent } from './components/sum-up/sum-up.component';
 import { TypeOfSeatsPipe} from './pipes/type-of-seats.pipe';
+import { FAQComponent } from './components/navbarCards/faq/faq.component';
+import { AboutUsComponent } from './components/navbarCards/about-us/about-us.component';
+import { FeaturesComponent } from './components/navbarCards/features/features.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +38,9 @@ import { TypeOfSeatsPipe} from './pipes/type-of-seats.pipe';
     NavbarComponent,
     SumUpComponent,
     TypeOfSeatsPipe,
+    FAQComponent,
+    AboutUsComponent,
+    FeaturesComponent,
   ],
   imports: [
     BrowserModule,

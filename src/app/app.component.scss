@@ -8,6 +8,11 @@
     background-attachment: scroll;
     
 }
+*{
+    @media screen and (max-width: 576px) {
+        overflow: hidden;
+    }
+}
 //Main kolorki
 // #294869
 // #A3C6EC
